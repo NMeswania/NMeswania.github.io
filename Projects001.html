@@ -1,0 +1,136 @@
+<!--Testing of layouts and interactions of HTML-->
+
+<!DOCTYPE html>
+<html>
+
+
+<head>
+	<title>Projects | Neal Meswania</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="CSS\styleMASTER_003.css">
+	<script type="text/javascript" src="JS\JSscript_001.js"></script>
+</head>
+
+
+
+<body>
+
+<!--________________________________________________________________________HEADER________________________________________________________________________-->
+<a href="index.html">
+	<header>
+		<div class="headerTitle">
+			<h1>Neal</h1>
+		</div>
+		<img src="Media\Images\LOGO_Flat0.png" class="headerImage">
+		<div class="headerTitle" style="text-align: left;">
+			<h1>Meswania</h1>
+		</div>
+	</header>
+</a>
+
+
+<!--________________________________________________________________________NAV-BAR________________________________________________________________________-->
+<nav class="sticky">
+	<a href="index.html">			<button class="nav0" id="NavBarAbout"><h2>About</h2></button></a>
+	<a href="Projects001.html">		<button disabled class="navSel" id="NavBarProjects"><h2>Projects</h2></button></a>
+	<a href="Competencies001.html">	<button class="nav0" id="NavBarSoftware"><h2>Software</h2></button></a>
+	<a href="Music001.html">		<button class="nav0" id="NavBarMusic"><h2>Music</h2></button></a>
+	<a href="Contact001.html">		<button class="nav0" id="NavBarContact"><h2>Contact</h2></button></a>
+</nav>
+
+
+<!--________________________________________________________________________PAGE-HEAD________________________________________________________________________-->
+<h2 class="pageOverview">See all the exciting projects I've worked on below! Hover over an image for information</h2>
+
+
+<!--________________________________________________________________________PROJECT-FILTER________________________________________________________________________-->
+<section class="filterBar">
+	<h3>Filter Projects:</h3>
+	<div class="buttons" id="projectFilterContainer">
+		<button class="projectFilter active" onclick="filterSelection('all')">Show All</button>
+		<button class="projectFilter" onclick="filterSelection('Mechatronics')">Mechatronics</button>
+		<button class="projectFilter" onclick="filterSelection('Mechanical')">Mechanical</button>
+		<button class="projectFilter" onclick="filterSelection('Software')">Software</button>
+		<button class="projectFilter" onclick="filterSelection('Carpentry')">Carpentry</button>
+		<button class="projectFilter" onclick="filterSelection('Other')">Other</button>
+	</div>
+</section>
+
+
+<!--________________________________________________________________________PROJECTS________________________________________________________________________-->
+<section class="projectsContainer">
+	<div class="hvr-sweep-to-top projectImage Mechatronics">
+		<img src="Media\Images\placeHolder.png" alt="LOGO_V01" class="image">
+		<div class="middle">
+			<h2 class="projectMainTitle">Project: 1</h2>
+			<p style="color:#fcffea; padding-left:1.6vw">Details about the project</p>
+			<a href="Project1.html">
+				<p class="link">Find out more...</p></a>
+		</div>
+	</div>
+	<div class="hvr-sweep-to-top projectImage Carpentry">
+		<img src="Media\Images\placeHolder.png" alt="LOGO_V01" class="image">
+		<div class="middle">
+			<h2 class="projectMainTitle">Project: 2</h2>
+			<p style="color:#fcffea; padding-left:1.6vw">Details about the project</p>
+			<a href="Project2.html">
+				<p class="link">Find out more...</p></a>
+		</div>
+	</div>
+	<div class="hvr-sweep-to-top projectImage Software" style="width: 50%">
+		<img src="Media\Images\placeHolder.png" alt="LOGO_V01" class="image">
+		<div class="middle">
+			<h2 class="projectMainTitle">Project: 3</h2>
+			<p style="color:#fcffea; padding-left:1.6vw">Details about the project</p>
+			<a href="Project3.html">
+				<p class="link">Find out more...</p></a>
+		</div>
+	</div>
+	<div class="hvr-sweep-to-top projectImage Other">
+		<img src="Media\Images\placeHolder.png" alt="LOGO_V01" class="image">
+		<div class="middle">
+			<h2 class="projectMainTitle">Project: 4</h2>
+			<p style="color:#fcffea; padding-left:1.6vw">Details about the project</p>
+			<a href="Project4.html">
+				<p class="link">Find out more...</p></a>
+		</div>
+	</div>
+	<div class="hvr-sweep-to-top projectImage Other">
+		<img src="Media\Images\placeHolder.png" alt="LOGO_V01" class="image">
+		<div class="middle">
+			<h2 class="projectMainTitle">Project: 5</h2>
+			<p style="color:#fcffea; padding-left:1.6vw">Details about the project</p>
+			<a href="Project5.html">
+				<p class="link">Find out more...</p></a>
+		</div>
+	</div>
+	<div class="hvr-sweep-to-top projectImage Mechanical" style="width: 50%">
+		<img src="Media\Images\placeHolder.png" alt="LOGO_V01" class="image">
+		<div class="middle">
+			<h2 class="projectMainTitle">Project: 6</h2>
+			<p style="color:#fcffea; padding-left:1.6vw">Details about the project</p>
+			<a href="Project6.html">
+				<p class="link">Find out more...</p></a>
+		</div>
+	</div>
+</section>
+
+
+<!--________________________________________________________________________FOOTER________________________________________________________________________-->
+<footer>
+	<img src="Media\Images\LOGO_Flat0.png" class="footerImage">
+	
+	<div class="footerLine"></div>
+	
+	<div class="footerText">
+		<p class="footerEmail">Email: <em>n.meswania@gmail.com</em></p>
+		<a href="SiteMap001.html" style="color:#fcffea">Site map</a>
+		<p class="copyRight">&copy; 2018 Neal Meswania</p>
+	</div>
+</footer>
+	
+</body>
+
+
+
+</html>

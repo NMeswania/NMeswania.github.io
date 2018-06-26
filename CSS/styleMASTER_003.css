@@ -1,0 +1,503 @@
+/* colour palette							*/
+/* dark grey:	#161616		(22, 22, 22)	*/
+/* dark red		#5d0000		(93, 0, 0)		*/
+/* blue			#289dd3		(40, 157, 211)	*/
+/* off-white	#fcffea		(252, 255, 234)	*/
+/* green		#20a357		(32, 163, 87)	*/
+
+body {
+    background-color: #fcffea;
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+* {
+    box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+	/* font-family: tahoma; */
+}
+
+
+
+/*---------------------------------------------------------------- text formatting ----------------------------------------------------------------*/	
+h1 {    color: #fcffea;	letter-spacing: 0.5em;	padding: 0vw;	margin: 0vw;	font-size: 2.6vw;	}
+
+h2 {    color: #fcffea;	letter-spacing: 0.2em; 	padding: 0vw;	margin: 0vw;	font-size: 1.3vw;	font-weight: normal;	}
+.pageOverview {	text-align:center;	color:#161616;	letter-spacing: 0.1em;	padding: 1.5em 1em 1em;	}
+.projectMainTitle	{	font-size:1.6vw;	font-weight:bold;	padding-top:1vw;	}
+.projectPadeHeading	{	color:#161616;	text-align:center;	font-size:1.6vw;	padding: 2vw 0vw 1vw;	}
+
+h3 {    color: #161616;	letter-spacing: 0.1em;	padding: 0vw;	margin: 0vw;	font-size: 0.975vw;	font-weight: bold;		}
+.landingSubTitle	{	color:#161616;	font-size:1.6vw;	}
+.musicSubTitle	{	color:#fcffea;	font-size:1.6vw;	padding-bottom: 0.5em;	}
+.musicChannelLink	{	color:#fcffea;	font-size: inherit;	display: absolute;	top: 0%;	right: 0%;	}
+.contactDetailsL	{	font-size: 1vw;	padding-left: 1vw;	-webkit-transform: translate(0%, 2vw);	transform: translate(0%, 2vw);	}
+.contactDetailsR	{	font-size: 1vw;	padding-right: 1vw;	-webkit-transform: translate(0%, 2vw);	transform: translate(0%, 2vw);	}
+
+h4 {    color: #fcffea;	letter-spacing: 0.1em;	padding: 0vw;	margin: 0vw;	font-size: 1.3vw;	font-weight: bold;	}
+.compPanelSubTitle	{	font-size:1vw;	padding: 0.5em 0em 0em;	letter-spacing: 0.1em;	}
+.musicGenre	{	color: #161616;	font-weight: normal;	}
+
+h5 {    color: #5d0000;	letter-spacing: 0.1em;	padding: 0vw;	margin: 0vw;	}
+
+h6 {    color: #5d0000;	letter-spacing: 0.1em;	padding: 0vw;	margin: 0vw;	}
+
+p {    color: #161616;	letter-spacing: 0.05em;	font-size: 0.975vw;	padding: 0.5em 0em;	margin: 0vw;	line-height: 1.4em;	}
+.link {	color:#fcffea;	cursor:pointer;	text-decoration: underline;	}
+.copyRight	{	font-size:inherit;	color:inherit;	opacity:0.75;	padding-top: 2em;	}
+.compPanelText	{	color: #fcffea;	padding-left: 2vw;	padding-top: 0.75em;	}
+.landingText	{	font-size:1.3vw;	padding: 0.5em 0em 1.5em;	}
+.landingImageText	{	text-align: center;	padding: 0.1em;	}
+.musicDescription	{	color: #fcffea;	}
+.musicIntroText	{	color: #fcffea;	font-size: 1.1vw;	}	
+.musicHeadingText	{	text-align: center;	padding: 0vw 1vw;	}
+.footerEmail	{	color: #fcffea;	font-size: 1vw;	padding-bottom: 1em;	font-weight: 300;	}
+.siteMapInfo	{	padding: 0;	}
+
+span	{	font-weight: normal;	}
+
+em	{	color: #fcffea;	font-weight: 200;	}
+
+a {    color: #161616;	letter-spacing: 0.05em;	font-size: 0.975vw;	padding-top: 1em;	font-style: normal;	}
+a:link, a:visited	{	text-decoration: none;	}
+a:hover, a:active	{	text-decoration: underline;	}
+
+label	{	letter-spacing: 0.1em;	padding: 0vw;	margin: 0vw;	font-size: 0.975vw;	font-weight: bold;	display: inline;	}
+
+li {    color: #161616;	letter-spacing: 0.05em;	font-size: 0.975vw;	padding: 0vw;	margin: 0vw;	line-height: 1.6em;	}
+
+iframe	{
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+
+
+
+/*---------------------------------------------------------------- header ----------------------------------------------------------------*/
+header {
+	text-align: center;
+	padding: 0.25em 0em;
+	margin: 0px;
+	background-color: #161616;
+	color: #fcffea;
+	width: 100%;
+	height: 8vw;
+	-webkit-transition: all 0.5s ease-in-out;	transition: all 0.5s ease-in-out;
+}
+img.headerImage {
+	position: relative;	display: inline-block;
+	margin: auto;
+	width: 7vw;
+	height: 7vw;
+	padding-top: 0.5vw;
+}
+.headerTitle {
+	position: relative;	display: inline-block;
+	margin: auto;
+	width: 25vw;
+	height: 8vw;
+	text-align: right;
+	vertical-align: top;
+	padding: 2.2vw 2vw 0vw;
+}
+header:hover {
+	padding-top: 1vw;
+	height: 9.5vw;
+	letter-spacing: 5em;
+	cursor:pointer;
+}
+
+
+
+/*---------------------------------------------------------------- navbar ----------------------------------------------------------------*/
+nav {
+    background-color: #20a357;
+	height: 3.19vw;
+	box-shadow: 0px 0px 1vw 0.2vw #161616;
+}
+.sticky {
+	position: sticky;
+	top: 0;
+	width: 100%;
+	transition:	0.5s;
+	z-index: 9999;
+}
+
+
+
+/*---------------------------------------------------------------- button ----------------------------------------------------------------*/
+button {
+    background-color: #606060;
+    color: #fcffea;
+	font-family:tahoma;
+	border: none;	padding: 0%;	margin: 0%;
+	text-align: center;
+	display: inline-block;
+	height: 3.2vw;
+	-webkit-transition: all 0.25s ease-out;	transition: all 0.25s ease-out;
+	cursor:pointer;	
+}
+button.nav0 	{	width: 20%;	position: absolute;	}
+button.nav0:hover {	background: #808080;	-webkit-transform: translate(0px, 5px);	transform: translate(0px, 5px);	}
+button.navSel {	width: 20%;	position: absolute;	background-color: #5d0000;	}
+button.navSel:enabled:hover {	-webkit-transform: translate(0px, 5px);	transform: translate(0px, 5px);	}
+button.navSelP {	width: 20%;	position: absolute;	background-color: #5e3030;	}
+button.navSelP:hover {	background: #5d0000;	-webkit-transform: translate(0px, 5px);	transform: translate(0px, 5px);	}
+button.compImageButton {	background-color: #fcffea;	text-align: left;	height: inherit;	}
+button.compImageButton:hover	{	-webkit-filter: grayscale(0%);    filter: grayscale(0%);	}
+button.musicChannel	{	width: 100%;	height: 100%;	font-size: 1.2vw;	}
+button.musicChannel:hover	{	background-color: #5d0000;	font-size: 1.3vw;	}
+button.formSubmit	{	height: 2vw;	padding: 0.5vw;	}
+button.formSubmit:hover	{	background-color: #808080;	}
+button.projectFilter	{	background-color: #20a357;	width: 20%;	}
+button.projectFilter:hover	{	background-color: rgba(32, 163, 87, 0.75);	}
+button.projectFilter.active	{	background-color: #289dd3;	}
+#NavBarAbout	{	left: 0%;	}
+#NavBarProjects {	left: 20%;	}
+#NavBarSoftware {	left: 40%;	}
+#NavBarMusic	{	left: 60%;	}
+#NavBarContact	{	left: 80%;	} 
+
+
+
+/*---------------------------------------------------------------- footer ----------------------------------------------------------------*/
+footer {
+	background-color: #161616;
+	width: 100%;
+	height: 15vw;
+	margin-top: 5vw;
+	position: relative;
+}
+.footerImage {
+	position: absolute;	display: inline;
+	margin: 2.5vw 2.5vw;
+	width: 10vw;
+	height: 10vw;
+	float: left;
+	opacity: 0.75;
+}
+.footerLine {
+	position: absolute;	display: inline;
+	background-color: #fcffea;
+	width: 0.25vw;
+	height: 10vw;
+	left: 15vw;
+	margin-top: 2.5vw;
+}
+.footerText {
+	position: absolute;	display: inline;
+	left: 19vw;
+	margin-top: 2.5vw;
+	text-align: left;
+	color: #fcffea;
+	font-size: 1vw;
+}
+
+
+
+/*---------------------------------------------------------------- container ----------------------------------------------------------------*/
+.container {
+	display: flex;
+	width: 100%;
+	height: 25vw;
+	justify-content: center;
+	padding: 0px;	margin: 0px;	border: 0px;
+}
+
+
+
+/*---------------------------------------------------------------- landing page container ----------------------------------------------------------------*/
+.landingContainer {
+	display: flex;
+	width: 80vw;
+	height: 30vw;
+	justify-content: space-around;
+	padding: 0px;	margin: 3vw auto;	border: 0px;
+}
+.landingContainer .text {	padding-right: 3%;	}
+.landingContainerImage {
+	width: 25vw;	height: 25vw;
+	background-color: #5e3030;
+	-webkit-box-shadow: #404040 2px 2px 10px 0px;	box-shadow: #404040 2px 2px 10px 0px;
+}
+
+
+/*---------------------------------------------------------------- project image ----------------------------------------------------------------*/
+.projectsContainer {
+	width: 50%;
+	padding: 0px;	margin: auto;	border: 0px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.filterBar {
+	width: 60%;
+	padding: 0px;	margin: auto;	border: 0px;
+}
+.filterBar .buttons	{
+	display: flex;
+	justify-content: space-around;
+	padding: 0.25vw 0vw 1vw;
+}
+
+.projectsContainer .projectImage {
+    width: 50%;
+	padding: 0px;	margin: 0px;	border: 0px;
+	display: block;
+}
+
+.projectsContainer .hide {
+	display: none;
+}
+
+.projectsContainer .projectImage .image {
+	opacity: 1;
+	display: block;
+	width: 100%;
+	height: 100%;
+	-webkit-transition-duration: 0.3s;					transition-duration: 0.3s;
+	-webkit-transition-timing-function: ease-in-out;	transition-timing-function: ease-in-out;
+	backface-visibility: hidden;
+}
+.projectsContainer .projectImage .middle {
+	opacity: 0;
+	position: absolute;
+	top: 0%;
+	text-align: center;
+	color: #fcffea;
+}
+.projectsContainer .projectImage:hover .image {
+	-webkit-filter: grayscale(100%);    filter: grayscale(100%);
+	opacity: 0.5;
+}
+.projectsContainer .projectImage:hover .middle {
+	opacity: 1;
+	z-index: +2;
+	transition: 0.5s;
+    transition-delay: 0.5s;
+}
+
+
+
+/*---------------------------------------------------------------- Sweep To Top ----------------------------------------------------------------*/
+.hvr-sweep-to-top {
+	display: inline-block;
+	vertical-align: middle;
+	-webkit-transform: perspective(1px) translateZ(0);	transform: perspective(1px) translateZ(0);
+	-webkit-transition-duration: 0.5s;					transition-duration: 0.5s;
+	position: relative;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.hvr-sweep-to-top:before {
+	opacity: 0.5;
+	content: "";
+	position: absolute;
+	z-index: +1;
+	top: 0;	left: 0;	right: 0;	bottom: 0;
+	background: #161616;
+	-webkit-transform: scaleY(0);					transform: scaleY(0);
+	-webkit-transform-origin: 50% 100%;				transform-origin: 50% 100%;
+	-webkit-transition-property: transform;			transition-property: transform;
+	-webkit-transition-duration: 0.5s;				transition-duration: 0.5s;
+	-webkit-transition-timing-function: ease-out;	transition-timing-function: ease-out;
+}
+.hvr-sweep-to-top:hover, .hvr-sweep-to-top:focus, .hvr-sweep-to-top:active {
+	color: #161616;
+}
+.hvr-sweep-to-top:hover:before, .hvr-sweep-to-top:focus:before, .hvr-sweep-to-top:active:before {
+	-webkit-transform: scaleY(1);	transform: scaleY(1);
+}
+
+
+
+/*---------------------------------------------------------------- project container ----------------------------------------------------------------*/
+.projectContainer {
+	width: 100%;
+	height: 25vw;
+	margin-top: 15px;
+	background: none;
+}
+
+.projectContainer .left {
+	width: inherit;	height: inherit;
+	background: linear-gradient(to right, rgba(40,157,211,0), rgba(40,157,211,1) 70%);
+	-webkit-animation: swipeLeft 1s ease-in-out;	animation: swipeLeft 1s ease-in-out;
+}
+.projectContainer .left .text {
+	text-align: left;	padding: 2% 5% 15% 5%;
+	opacity: 0;
+	-webkit-animation: textFadeIn 1s ease-in-out 1s forwards;	animation: textFadeIn 1s ease-in-out 1s forwards;
+}
+
+.projectContainer .right {
+	width: inherit;	height: inherit;
+	background: linear-gradient(to left, rgba(32,163,87,0), rgba(32,163,87,1) 70%);
+	-webkit-animation: swipeRight 1s ease-in-out;	animation: swipeRight 1s ease-in-out;
+}
+.projectContainer .right .text {
+	text-align: right;	padding: 2% 5% 15% 5%;
+	opacity: 0;
+	-webkit-animation: textFadeIn 1s ease-in-out 1s forwards;	animation: textFadeIn 1s ease-in-out 1s forwards;
+}
+
+@keyframes swipeRight {
+	0% 		{	width: 0%;	}
+	100%	{	width: 100%;}
+}
+
+@keyframes swipeLeft {
+	0% 		{	width: 0%;		margin-left: 100%;	}
+	100%	{	width: 100%;	margin-left: 0%;	}
+}
+
+@keyframes textFadeIn {
+	0% 		{	opacity: 0;	}
+	100%	{	opacity: 1;	}
+}
+
+
+
+/*---------------------------------------------------------------- competancy container ----------------------------------------------------------------*/
+.container .compImage {
+	background-color: #fcffea;
+	justify-content: space-around;
+    width: 15%;
+	height: 15vw;
+	padding: 0px;	margin: 2% 3%;	border: 0px;
+}
+
+.info {
+	display: none;
+	background-color: #20a357;
+	height: 18vw;
+	width: 100%;
+	-webkit-transition: 0.1s;	transition: 0.1s;
+	overflow: hidden;
+	-webkit-box-shadow: inset 0px -5px 10px -5px #161616, inset 0px 5px 10px -5px #161616;
+	box-shadow: inset 0px -5px 10px -5px #161616, inset 0px 5px 10px -5px #161616;
+}
+
+.info .text {
+	padding: 1vw 2vw;
+	color: #fcffea;
+}
+img.compImage2 {
+	-webkit-filter: grayscale(100%);    filter: grayscale(100%);
+	-webkit-transition: 0.3s ease-in-out;	transition: 0.3s ease-in-out;
+}
+img.compImage2:hover {	-webkit-filter: grayscale(0%);    filter: grayscale(0%);	}
+
+
+
+/*---------------------------------------------------------------- music container ----------------------------------------------------------------*/
+.musicContainer {
+	display: flex;
+	width: 100%;
+	height: 25vw;
+	justify-content: center;
+	margin-bottom: 3vw;
+}
+.musicContainer .musicText	{
+	padding: 2vw 3vw;
+	width: 40.1%;
+    text-align: center;
+	background-color: #20a357;
+	color: #fcffea;
+}
+.musicContainer .musicIntroTextbox{
+	padding: 1vw 3vw;
+	width: 77.1%;
+    text-align: center;
+	background-color: #289dd3;
+	color: #fcffea;
+}
+
+.musicContainer .video	{	width: 44.4vw;	height: inherit;	}
+.musicContainer .link2	{	width: 8%;	height: inherit;	position: relative;	font-size: 1.2vw;	}
+
+img.channelImage	{
+	width: 100%;	height: inherit;
+	padding: 0%;	margin: 0%;
+	top: 0%;		right: 0%;
+	position: absolute;
+	opacity: 0.5;
+}
+img.channelImage:hover {	opacity: 0.1;	}
+
+
+
+/*---------------------------------------------------------------- contact page container ----------------------------------------------------------------*/
+.contactContainerDetails {
+	display: flex;
+	width: 80vw;
+	height: 5vw;
+	justify-content: left;
+	padding: 0px;	margin: 0vw auto 0vw;	border: 0px;
+}
+.contactContainerDetails .image {
+	width: 12.5%;	height: inherit;
+	background-color: #20a357;
+}
+
+.contactContainerDetails .fadeR {
+	width: 3vw;	height: inherit;
+	background: linear-gradient(to right, rgba(32, 163, 87, 1), rgba(32, 163, 87, 0) 100%);
+}
+.contactContainerDetails .fadeL {
+	width: 3vw;	height: inherit;
+	background: linear-gradient(to left, rgba(32, 163, 87, 1), rgba(32, 163, 87, 0) 100%);
+}
+.contactContainerDetails .fadeB {
+	width: 3vw;	height: inherit;
+	background: linear-gradient(to right, rgba(40, 157, 211, 1), rgba(40, 157, 211, 0) 100%);
+}
+.contactContainerDetails .text {	width: 27vw;	height: inherit;	}
+
+.contactContainerMessage {
+	display: flex;
+	width: 80vw;
+	height: 10vw;
+	justify-content: left;
+	padding: 0px;	margin: 2vw auto 2vw;	border: 0px;
+}
+
+
+
+/*---------------------------------------------------------------- site map ----------------------------------------------------------------*/
+table {
+	width: 80%;
+	margin: auto;
+	text-align: left;
+	padding: 0vw;
+}
+th	{
+	width: 16%;
+	padding: 0vw 0vw 0vw;
+}
+td {
+	padding: 0vw 1vw 0vw 0.5vw;
+	vertical-align: 0vw;
+}
+tr	{
+	padding: 0vw;
+}
+
+
+
+/*---------------------------------------------------------------- RESPONSIVE ----------------------------------------------------------------*/
+@media only screen and (max-width: 800px) {
+	nav	{	height: 15.99vw;	}
+	button.nav0 	{	width: 100%;	display: block;	position: relative;	}
+	button.navSel {	width: 100%;	display: block;	position: relative;	background-color: #5d0000;	}
+	button.navSelP {	width: 100%;	display: block;	position: relative;	background-color: #5e3030;	}
+	button.nav0:hover {	background: #808080;	-webkit-transform: translate(5px, 0px);	transform: translate(5px, 0px);	text-decoration: none;	}
+	button.navSel:enabled:hover {	-webkit-transform: translate(5px, 0px);	transform: translate(5px, 0px);	text-decoration: none;	}
+	button.navSelP:hover {	background: #5d0000;	-webkit-transform: translate(5px, 0px);	transform: translate(5px, 0px);	text-decoration: none;	}
+	#NavBarAbout	{	left: 0%;	}
+	#NavBarProjects {	left: 0%;	}
+	#NavBarSoftware {	left: 0%;	}
+	#NavBarMusic	{	left: 0%;	}
+	#NavBarContact	{	left: 0%;	}
+}

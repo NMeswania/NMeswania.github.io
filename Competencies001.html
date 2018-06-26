@@ -1,0 +1,341 @@
+<!--Testing of layouts and interactions of HTML-->
+
+<!DOCTYPE html>
+<html>
+
+
+<head>
+	<title>Competencies | Neal Meswania</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="CSS\styleMASTER_003.css">
+	<script type="text/javascript" src="JS\JSscript_000.js"></script>
+</head>
+
+
+
+<body>
+
+<!--________________________________________________________________________HEADER________________________________________________________________________-->
+<a href="index.html">
+	<header>
+		<div class="headerTitle">
+			<h1>Neal</h1>
+		</div>
+		<img src="Media\Images\LOGO_Flat0.png" class="headerImage">
+		<div class="headerTitle" style="text-align: left;">
+			<h1>Meswania</h1>
+		</div>
+	</header>
+</a>
+
+
+<!--________________________________________________________________________NAV-BAR________________________________________________________________________-->
+<nav class="sticky">
+	<a href="index.html">			<button class="nav0" id="NavBarAbout"><h2>About</h2></button></a>
+	<a href="Projects001.html">		<button class="nav0" id="NavBarProjects"><h2>Projects</h2></button></a>
+	<a href="Competencies001.html">	<button disabled class="navSel" id="NavBarSoftware"><h2>Software</h2></button></a>
+	<a href="Music001.html">		<button class="nav0" id="NavBarMusic"><h2>Music</h2></button></a>
+	<a href="Contact001.html">		<button class="nav0" id="NavBarContact"><h2>Contact</h2></button></a>
+</nav>
+
+
+<!--________________________________________________________________________PAGE-HEAD________________________________________________________________________-->
+<h2 class="pageOverview">Here are a few of my software skills, click an icon to find out more</h2>
+
+
+<!--________________________________________________________________________PROJECTS________________________________________________________________________-->
+<section class="container" style="height:15%">
+	<div class="compImage">
+		<button class="compImageButton" onclick="myFunction('0')">
+			<img src="Media\Images\arduino_logo.png"
+				alt="Arduino Logo" class="compImage2" style="width: 100%; height: 100%">
+		</button>
+	</div>
+	<div class="compImage">
+		<button class="compImageButton" onclick="myFunction('1')">
+			<img src="Media\Images\Matlab_Logo.png"
+				alt="Matlab_Logo" class="compImage2" style="width: 100%; height: 100%">
+		</button>
+	</div>
+	<div class="compImage">
+		<button class="compImageButton" onclick="myFunction('2')">
+			<img src="Media\Images\CAD_logo.png"
+				alt="CAD software" class="compImage2" style="width: 100%; height: 100%">
+		</button>
+	</div>
+	<div class="compImage">
+		<button class="compImageButton" onclick="myFunction('3')">
+			<img src="Media\Images\Web_logo.png"
+				alt="HTML CSS JS" class="compImage2" style="width: 100%; height: 100%">
+		</button>
+	</div>
+</section>
+
+<div>
+	<div id="compInfo0" class="info">
+		<div class="text">
+			<h4 style="padding: 0em 0em 0.5em">Arduino</h4>
+			<h4 style="font-style:italic; font-size:1vw">Skill level: <span>Intermediate</span></h4>
+			<div style="display: inline-block">
+				<h4 class="compPanelSubTitle">Some project examples:</h4>
+			</div>
+			<div style="display:inline-block">
+				<p class="compPanelText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+				sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+				exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit 
+				in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
+				sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<p class="compPanelText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+				sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+				exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit 
+				in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
+				sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
+			<h4 class="compPanelSubTitle"><strong>Relevant Projects: </strong>
+				<a href="Project1.html"><em>Project 1</em></a>
+				<a href="Project2.html"><em>Project 2</em></a>
+				<a href="Project3.html"><em>Project 3</em></a>
+			</h4>
+		</div>
+	</div>
+
+	<div id="compInfo1" class="info">
+		<div class="text">
+			<h4 style="padding: 0em 0em 0.5em">MATLAB</h4>
+			<h4 style="font-style:italic; font-size:1vw">Skill level: <span>Intermediate</span></h4>
+			<div style="display: inline-block">
+				<h4 class="compPanelSubTitle">Some project examples:</h4>
+			</div>
+			<div style="display:inline-block">
+				<p class="compPanelText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+				sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+				exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit 
+				in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
+				sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<p class="compPanelText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+				sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+				exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit 
+				in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
+				sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
+			<h4 class="compPanelSubTitle"><strong>Relevant Projects: </strong>
+				<a href="Project1.html"><em>Project 1</em></a>
+				<a href="Project2.html"><em>Project 2</em></a>
+				<a href="Project3.html"><em>Project 3</em></a>
+			</h4>
+		</div>
+	</div>
+
+	<div id="compInfo2" class="info">
+		<div class="text">
+			<h4 style="padding: 0em 0em 0.5em">CAD software</h4>
+			<h4 style="font-style:italic; font-size:1vw">Skill level: <span>Intermediate</span></h4>
+			<div style="display: inline-block">
+				<h4 class="compPanelSubTitle">Some project examples:</h4>
+			</div>
+			<div style="display:inline-block">
+				<p class="compPanelText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+				sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+				exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit 
+				in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
+				sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<p class="compPanelText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+				sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+				exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit 
+				in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
+				sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
+			<h4 class="compPanelSubTitle"><strong>Relevant Projects: </strong>
+				<a href="Project1.html"><em>Project 1</em></a>
+				<a href="Project2.html"><em>Project 2</em></a>
+				<a href="Project3.html"><em>Project 3</em></a>
+			</h4>
+		</div>
+	</div>
+
+	<div id="compInfo3" class="info">
+		<div class="text">
+			<h4 style="padding: 0em 0em 0.5em">Web development software</h4>
+			<h4 style="font-style:italic; font-size:1vw">Skill level: <span style="font-weight:normal">Intermediate</span></h4>
+			<div style="display: inline-block">
+				<h4 class="compPanelSubTitle">Some project examples:</h4>
+			</div>
+			<div style="display:inline-block">
+				<p class="compPanelText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+				sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+				exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit 
+				in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
+				sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<p class="compPanelText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+				sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+				exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit 
+				in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
+				sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
+			<h4 class="compPanelSubTitle"><strong>Relevant Projects: </strong>
+				<a href="Project1.html"><em>Project 1</em></a>
+				<a href="Project2.html"><em>Project 2</em></a>
+				<a href="Project3.html"><em>Project 3</em></a>
+			</h4>
+		</div>
+	</div>
+</div>
+
+
+<section class="container" style="height:15%">
+	<div class="compImage">
+		<button class="compImageButton" onclick="myFunction('4')">
+			<img src="Media\Images\vba_logo.png"
+				alt="VBA Logo" class="compImage2" style="width: 100%; height: 100%">
+		</button>
+	</div>
+	<div class="compImage">
+		<button class="compImageButton" onclick="myFunction('5')">
+			<img src="Media\Images\fritzing.png"
+				alt="Fritzing Logo" class="compImage2" style="width: 100%; height: 100%">
+		</button>
+	</div>
+	<div class="compImage">
+		<button class="compImageButton" onclick="myFunction('6')">
+			<img src="Media\Images\processing3_logo.png"
+				alt="Processing 3 logo" class="compImage2" style="width: 100%; height: 100%">
+		</button>
+	</div>
+	<div class="compImage">
+		<button class="compImageButton" onclick="myFunction('7')">
+			<img src="Media\Images\ms_office_logo.png"
+				alt="MS Office Logo" class="compImage2" style="width: 100%; height: 100%">
+		</button>
+	</div>
+</section>
+
+<div>
+	<div id="compInfo4" class="info">
+		<div class="text">
+			<h4 style="padding: 0em 0em 0.5em">Visual Basic for Applications</h4>
+			<h4 style="font-style:italic; font-size:1vw">Skill level: <span>Intermediate</span></h4>
+			<div style="display: inline-block">
+				<h4 class="compPanelSubTitle">Some project examples:</h4>
+			</div>
+			<div style="display:inline-block">
+				<p class="compPanelText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+				sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+				exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit 
+				in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
+				sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<p class="compPanelText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+				sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+				exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit 
+				in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
+				sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
+			<h4 class="compPanelSubTitle"><strong>Relevant Projects: </strong>
+				<a href="Project1.html"><em>Project 1</em></a>
+				<a href="Project2.html"><em>Project 2</em></a>
+				<a href="Project3.html"><em>Project 3</em></a>
+			</h4>
+		</div>
+	</div>
+
+	<div id="compInfo5" class="info">
+		<div class="text">
+			<h4 style="padding: 0em 0em 0.5em">Fritzing</h4>
+			<h4 style="font-style:italic; font-size:1vw">Skill level: <span>Intermediate</span></h4>
+			<div style="display: inline-block">
+				<h4 class="compPanelSubTitle">Some project examples:</h4>
+			</div>
+			<div style="display:inline-block">
+				<p class="compPanelText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+				sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+				exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit 
+				in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
+				sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<p class="compPanelText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+				sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+				exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit 
+				in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
+				sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
+			<h4 class="compPanelSubTitle"><strong>Relevant Projects: </strong>
+				<a href="Project1.html"><em>Project 1</em></a>
+				<a href="Project2.html"><em>Project 2</em></a>
+				<a href="Project3.html"><em>Project 3</em></a>
+			</h4>
+		</div>
+	</div>
+
+	<div id="compInfo6" class="info">
+		<div class="text">
+			<h4 style="padding: 0em 0em 0.5em">Processing</h4>
+			<h4 style="font-style:italic; font-size:1vw">Skill level: <span>Intermediate</span></h4>
+			<div style="display: inline-block">
+				<h4 class="compPanelSubTitle">Some project examples:</h4>
+			</div>
+			<div style="display:inline-block">
+				<p class="compPanelText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+				sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+				exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit 
+				in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
+				sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<p class="compPanelText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+				sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+				exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit 
+				in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
+				sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
+			<h4 class="compPanelSubTitle"><strong>Relevant Projects: </strong>
+				<a href="Project1.html"><em>Project 1</em></a>
+				<a href="Project2.html"><em>Project 2</em></a>
+				<a href="Project3.html"><em>Project 3</em></a>
+			</h4>
+		</div>
+	</div>
+
+	<div id="compInfo7" class="info">
+		<div class="text">
+			<h4 style="padding: 0em 0em 0.5em">MS Office</h4>
+			<h4 style="font-style:italic; font-size:1vw">Skill level: <span>Advanced</span></h4>
+			<div style="display: inline-block">
+				<h4 class="compPanelSubTitle">Some project examples:</h4>
+			</div>
+			<div style="display:inline-block">
+				<p class="compPanelText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+				sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+				exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit 
+				in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
+				sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<p class="compPanelText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+				sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+				exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit 
+				in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
+				sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
+			<h4 class="compPanelSubTitle"><strong>Relevant Projects: </strong>
+				<a href="Project1.html"><em>Project 1</em></a>
+				<a href="Project2.html"><em>Project 2</em></a>
+				<a href="Project3.html"><em>Project 3</em></a>
+			</h4>
+		</div>
+	</div>
+</div>
+
+
+
+<!--________________________________________________________________________FOOTER________________________________________________________________________-->
+<footer>
+	<img src="Media\Images\LOGO_Flat0.png" class="footerImage">
+	
+	<div class="footerLine"></div>
+	
+	<div class="footerText">
+		<p class="footerEmail">Email: <em>n.meswania@gmail.com</em></p>
+		<a href="SiteMap001.html" style="color:#fcffea">Site map</a>
+		<p class="copyRight">&copy; 2018 Neal Meswania</p>
+	</div>
+</footer>
+	
+</body>
+
+
+
+</html>
