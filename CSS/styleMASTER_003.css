@@ -57,6 +57,7 @@ p {    color: #161616;	letter-spacing: 0.05em;	font-size: 0.975vw;	padding: 0.5e
 span	{	font-weight: normal;	}
 
 em	{	color: #fcffea;	font-weight: 200;	}
+em.contactEM	{	color: #161616;	}
 
 a {    color: #161616;	letter-spacing: 0.05em;	font-size: 0.975vw;	padding-top: 1em;	font-style: normal;	}
 a:link, a:visited	{	text-decoration: none;	}
