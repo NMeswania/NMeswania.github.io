@@ -2,11 +2,11 @@
 /* dark grey:	#161616		(22, 22, 22)	*/
 /* dark red		#5d0000		(93, 0, 0)		*/
 /* blue			#289dd3		(40, 157, 211)	*/
-/* off-white	#fcffea		(252, 255, 234)	*/
+/* off-white	#ffffff		(252, 255, 234)	*/
 /* green		#20a357		(32, 163, 87)	*/
 
 body {
-    background-color: #fcffea;
+    background-color: #ffffff;
 	margin: 0px;
 	padding: 0px;
 	border: 0px;
@@ -20,21 +20,21 @@ body {
 
 
 /*---------------------------------------------------------------- text formatting ----------------------------------------------------------------*/	
-h1 {    color: #fcffea;	letter-spacing: 0.5em;	padding: 0vw;	margin: 0vw;	font-size: 2.6vw;	}
+h1 {    color: #ffffff;	letter-spacing: 0.5em;	padding: 0vw;	margin: 0vw;	font-size: 2.6vw;	}
 
-h2 {    color: #fcffea;	letter-spacing: 0.2em; 	padding: 0vw;	margin: 0vw;	font-size: 1.3vw;	font-weight: normal;	}
+h2 {    color: #ffffff;	letter-spacing: 0.2em; 	padding: 0vw;	margin: 0vw;	font-size: 1.3vw;	font-weight: normal;	}
 .pageOverview {	text-align:center;	color:#161616;	letter-spacing: 0.1em;	padding: 1.5em 1em 1em;	}
 .projectMainTitle	{	font-size:1.6vw;	font-weight:bold;	padding-top:1vw;	}
 .projectPadeHeading	{	color:#161616;	text-align:center;	font-size:1.6vw;	padding: 2vw 0vw 1vw;	}
 
 h3 {    color: #161616;	letter-spacing: 0.1em;	padding: 0vw;	margin: 0vw;	font-size: 0.975vw;	font-weight: bold;		}
 .landingSubTitle	{	color:#161616;	font-size:1.6vw;	}
-.musicSubTitle	{	color:#fcffea;	font-size:1.6vw;	padding-bottom: 0.5em;	}
-.musicChannelLink	{	color:#fcffea;	font-size: inherit;	display: absolute;	top: 0%;	right: 0%;	}
+.musicSubTitle	{	color:#ffffff;	font-size:1.6vw;	padding-bottom: 0.5em;	}
+.musicChannelLink	{	color:#ffffff;	font-size: inherit;	display: absolute;	top: 0%;	right: 0%;	}
 .contactDetailsL	{	font-size: 1vw;	padding-left: 1vw;	-webkit-transform: translate(0%, 2vw);	transform: translate(0%, 2vw);	}
 .contactDetailsR	{	font-size: 1vw;	padding-right: 1vw;	-webkit-transform: translate(0%, 2vw);	transform: translate(0%, 2vw);	}
 
-h4 {    color: #fcffea;	letter-spacing: 0.1em;	padding: 0vw;	margin: 0vw;	font-size: 1.3vw;	font-weight: bold;	}
+h4 {    color: #ffffff;	letter-spacing: 0.1em;	padding: 0vw;	margin: 0vw;	font-size: 1.3vw;	font-weight: bold;	}
 .compPanelSubTitle	{	font-size:1vw;	padding: 0.5em 0em 0em;	letter-spacing: 0.1em;	}
 .musicGenre	{	color: #161616;	font-weight: normal;	}
 
@@ -43,20 +43,20 @@ h5 {    color: #5d0000;	letter-spacing: 0.1em;	padding: 0vw;	margin: 0vw;	}
 h6 {    color: #5d0000;	letter-spacing: 0.1em;	padding: 0vw;	margin: 0vw;	}
 
 p {    color: #161616;	letter-spacing: 0.05em;	font-size: 0.975vw;	padding: 0.5em 0em;	margin: 0vw;	line-height: 1.4em;	}
-.link {	color:#fcffea;	cursor:pointer;	text-decoration: underline;	}
+.link {	color:#ffffff;	cursor:pointer;	text-decoration: underline;	padding: 0em 1em;}
 .copyRight	{	font-size:inherit;	color:inherit;	opacity:0.75;	padding-top: 2em;	}
-.compPanelText	{	color: #fcffea;	padding-left: 2vw;	padding-top: 0.75em;	}
+.compPanelText	{	color: #ffffff;	padding-left: 2vw;	padding-top: 0.75em;	}
 .landingText	{	font-size:1.3vw;	padding: 0.5em 0em 1.5em;	}
 .landingImageText	{	text-align: center;	padding: 0.1em;	}
-.musicDescription	{	color: #fcffea;	}
-.musicIntroText	{	color: #fcffea;	font-size: 1.1vw;	}	
+.musicDescription	{	color: #ffffff;	}
+.musicIntroText	{	color: #ffffff;	font-size: 1.1vw;	}	
 .musicHeadingText	{	text-align: center;	padding: 0vw 1vw;	}
-.footerEmail	{	color: #fcffea;	font-size: 1vw;	padding-bottom: 1em;	font-weight: 300;	}
+.footerEmail	{	color: #ffffff;	font-size: 1vw;	padding-bottom: 1em;	font-weight: 300;	}
 .siteMapInfo	{	padding: 0;	}
 
 span	{	font-weight: normal;	}
 
-em	{	color: #fcffea;	font-weight: 200;	padding-top: 0px;	}
+em	{	color: #ffffff;	font-weight: 200;	padding-top: 0px;	}
 em.contactEM	{	color: #161616;	}
 
 a {    color: #161616;	letter-spacing: 0.05em;	font-size: 0.975vw;	padding-top: 1em;	font-style: normal;	}
@@ -81,7 +81,7 @@ header {
 	padding: 0.25em 0em;
 	margin: 0px;
 	background-color: #161616;
-	color: #fcffea;
+	color: #ffffff;
 	width: 100%;
 	height: 8vw;
 	-webkit-transition: all 0.5s ease-in-out;	transition: all 0.5s ease-in-out;
@@ -115,7 +115,7 @@ header:hover {
 nav {
     background-color: #20a357;
 	height: 3.19vw;
-	box-shadow: 0px 0px 1vw 0.2vw #161616;
+	box-shadow: 0px 0px 5px 0px #161616;
 }
 .sticky {
 	position: sticky;
@@ -129,8 +129,8 @@ nav {
 
 /*---------------------------------------------------------------- button ----------------------------------------------------------------*/
 button {
-    background-color: #606060;
-    color: #fcffea;
+    background-color: #a0a0a0;
+    color: #ffffff;
 	font-family:tahoma;
 	border: none;	padding: 0%;	margin: 0%;
 	text-align: center;
@@ -140,12 +140,12 @@ button {
 	cursor:pointer;	
 }
 button.nav0 	{	width: 20%;	position: absolute;	}
-button.nav0:hover {	background: #808080;	-webkit-transform: translate(0px, 5px);	transform: translate(0px, 5px);	}
+button.nav0:hover {	background: #aaaaaa;	-webkit-transform: translate(0px, 5px);	transform: translate(0px, 5px);	}
 button.navSel {	width: 20%;	position: absolute;	background-color: #5d0000;	}
 button.navSel:enabled:hover {	-webkit-transform: translate(0px, 5px);	transform: translate(0px, 5px);	}
 button.navSelP {	width: 20%;	position: absolute;	background-color: #5e3030;	}
 button.navSelP:hover {	background: #5d0000;	-webkit-transform: translate(0px, 5px);	transform: translate(0px, 5px);	}
-button.compImageButton {	background-color: #fcffea;	text-align: left;	height: inherit;	}
+button.compImageButton {	background-color: #ffffff;	text-align: left;	height: inherit;	}
 button.compImageButton:hover	{	-webkit-filter: grayscale(0%);    filter: grayscale(0%);	}
 button.musicChannel	{	width: 100%;	height: 100%;	font-size: 1.2vw;	}
 button.musicChannel:hover	{	background-color: #5d0000;	font-size: 1.3vw;	}
@@ -178,7 +178,7 @@ footer {
 }
 .footerLine {
 	position: absolute;	display: inline;
-	background-color: #fcffea;
+	background-color: #ffffff;
 	width: 0.25vw;
 	height: 10vw;
 	left: 15vw;
@@ -189,7 +189,7 @@ footer {
 	left: 19vw;
 	margin-top: 2.5vw;
 	text-align: left;
-	color: #fcffea;
+	color: #ffffff;
 	font-size: 1vw;
 }
 
@@ -224,25 +224,25 @@ footer {
 
 /*---------------------------------------------------------------- project image ----------------------------------------------------------------*/
 .projectsContainer {
-	width: 50%;
+	width: 75%;
 	padding: 0px;	margin: auto;	border: 0px;
 	display: flex;
 	flex-wrap: wrap;
 }
 
 .filterBar {
-	width: 60%;
-	padding: 0px;	margin: auto;	border: 0px;
+	width: 75%;
+	padding: 0px 8px;	margin: auto;	border: 0px;
 }
 .filterBar .buttons	{
 	display: flex;
 	justify-content: space-around;
-	padding: 0.25vw 0vw 1vw;
+	padding: 0.25vw 0vw 8px;
 }
 
 .projectsContainer .projectImage {
-    width: 50%;
-	padding: 0px;	margin: 0px;	border: 0px;
+    width: 33.33%;
+	padding: 8px;	margin: 0px;	border: 0px;
 	display: block;
 }
 
@@ -262,9 +262,11 @@ footer {
 .projectsContainer .projectImage .middle {
 	opacity: 0;
 	position: absolute;
-	top: 0%;
-	text-align: center;
-	color: #fcffea;
+	top: 10px;
+	padding-right: 20px;
+	padding-left: 20px;
+	text-align: left;
+	color: #ffffff;
 }
 .projectsContainer .projectImage:hover .image {
 	-webkit-filter: grayscale(100%);    filter: grayscale(100%);
@@ -286,15 +288,13 @@ footer {
 	-webkit-transform: perspective(1px) translateZ(0);	transform: perspective(1px) translateZ(0);
 	-webkit-transition-duration: 0.5s;					transition-duration: 0.5s;
 	position: relative;
-	margin-top: 5px;
-	margin-bottom: 5px;
 }
 .hvr-sweep-to-top:before {
 	opacity: 0.5;
 	content: "";
 	position: absolute;
 	z-index: +1;
-	top: 0;	left: 0;	right: 0;	bottom: 0;
+	top: 8px;	left: 8px;	right: 8px;	bottom: 8px;
 	background: #161616;
 	-webkit-transform: scaleY(0);					transform: scaleY(0);
 	-webkit-transform-origin: 50% 100%;				transform-origin: 50% 100%;
@@ -360,7 +360,7 @@ footer {
 
 /*---------------------------------------------------------------- competancy container ----------------------------------------------------------------*/
 .container .compImage {
-	background-color: #fcffea;
+	background-color: #ffffff;
 	justify-content: space-around;
     width: 15%;
 	height: 15vw;
@@ -380,7 +380,7 @@ footer {
 
 .info .text {
 	padding: 1vw 2vw;
-	color: #fcffea;
+	color: #ffffff;
 }
 img.compImage2 {
 	-webkit-filter: grayscale(100%);    filter: grayscale(100%);
@@ -403,14 +403,14 @@ img.compImage2:hover {	-webkit-filter: grayscale(0%);    filter: grayscale(0%);	
 	width: 40.1%;
     text-align: center;
 	background-color: #20a357;
-	color: #fcffea;
+	color: #ffffff;
 }
 .musicContainer .musicIntroTextbox{
 	padding: 1vw 3vw;
 	width: 77.1%;
     text-align: center;
 	background-color: #289dd3;
-	color: #fcffea;
+	color: #ffffff;
 }
 
 .musicContainer .video	{	width: 44.4vw;	height: inherit;	}
@@ -486,8 +486,10 @@ tr	{
 
 
 /*---------------------------------------------------------------- RESPONSIVE ----------------------------------------------------------------*/
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 800px) {	
+	h1 {    color: #ffffff;	letter-spacing: 0.5em;	padding: 0vw;	margin: 0vw;	font-size: 40px;	}
 	nav	{	height: 15.99vw;	}
+	nav.sticky	{	position: relative;	}
 	button.nav0 	{	width: 100%;	display: block;	position: relative;	}
 	button.navSel {	width: 100%;	display: block;	position: relative;	background-color: #5d0000;	}
 	button.navSelP {	width: 100%;	display: block;	position: relative;	background-color: #5e3030;	}
