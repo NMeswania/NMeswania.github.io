@@ -1,0 +1,188 @@
+<!--Testing of layouts and interactions of HTML-->
+
+<!DOCTYPE html>
+<html>
+
+
+<head>
+	<title>Project 7 | Neal Meswania</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="CSS\styleMASTER_003.css">
+</head>
+
+
+
+<body>
+
+<!--________________________________________________________________________HEADER________________________________________________________________________-->
+<a href="index.html">
+	<header>
+		<div class="headerTitle">
+			<h1>Neal</h1>
+		</div>
+		<img src="Media\Images\LOGO_Flat0.png" class="headerImage">
+		<div class="headerTitle" style="text-align: left;">
+			<h1>Meswania</h1>
+		</div>
+	</header>
+</a>
+
+
+<!--________________________________________________________________________NAV-BAR________________________________________________________________________-->
+<nav class="sticky">
+	<a href="index.html">			<button class="nav0" id="NavBarAbout"><h2>About</h2></button></a>
+	<a href="Projects001.html">		<button class="navSelP" id="NavBarProjects"><h2>Projects</h2></button></a>
+	<a href="Competencies001.html">	<button class="nav0" id="NavBarSoftware"><h2>Software</h2></button></a>
+	<a href="Music001.html">		<button class="nav0" id="NavBarMusic"><h2>Music</h2></button></a>
+	<a href="Contact001.html">		<button class="nav0" id="NavBarContact"><h2>Contact</h2></button></a>
+</nav>
+
+
+<!--________________________________________________________________________CONTENT________________________________________________________________________-->
+<h2 class="projectPadeHeading">Music Videos</h2>
+
+
+<section>
+	<div class="projectContainer">
+		<div class="left">
+			<div class="text">
+				<h3 class="projectPageTitle">Why Is This Project Here?</h3>
+				<p class="projectPageText">Despite its non-engineering related topic, this project involved a lot of coding: I learnt 
+					Java just to make these music videos. They are made in the Processing environment; a Java-based, open-source 
+					Integrated Development Environment aimed at visual arts through coding. It’s a great bit of software.
+					<br><br>
+					Click on a song title to see the video and listen to the song.</p>
+			</div>
+			<div class="image">
+				<img src="https://images.unsplash.com/photo-1504208434309-cb69f4fe52b0?ixlib=rb-0.3.5&ixid=
+				eyJhcHBfaWQiOjEyMDd9&s=f35e7bc5ab7c860cef3684c704b7fe1f&auto=format&fit=crop&w=1950&q=80"
+					class="projectContainerImage" alt="Java and Processing logo">
+			</div>
+		</div>
+	</div>
+
+	<div class="projectContainer">
+		<div class="right">
+			<div class="text">
+				<h3 class="projectPageTitle">What Sort of Coding Did It Involve?</h3>
+				<p class="projectPageText">A few songs have FFT analysis which was then styled to match the song. The graphics and 
+					pictures were created/ edited in other software packages. Also, each intro-jingle has an amplitude analysis which 
+					scales the logo to match.</p>
+			</div>
+			<div class="image">
+				<img src="https://images.unsplash.com/photo-1504208434309-cb69f4fe52b0?ixlib=rb-0.3.5&ixid=
+				eyJhcHBfaWQiOjEyMDd9&s=f35e7bc5ab7c860cef3684c704b7fe1f&auto=format&fit=crop&w=1950&q=80"
+					class="projectContainerImage" alt="Intro jingle frame">
+			</div>
+		</div>
+	</div>
+
+	<div class="projectContainer">
+		<div class="left">
+			<div class="text">
+				<h3 class="projectPageTitle">Song: 
+					<a class="musicLink" href="Music001.html#SCC"><em class="musicLink">Suburban Cafe Complex</em></a></h3>
+				<p class="projectPageText">In this video there are 2 types of sound analysis being shown: the two waveforms in the 
+					centre of the video are the left and right audio channels, there is an FFT at the bottom of the video. The low 
+					bass note is really apparent in the audio waveforms!</p>
+			</div>
+			<div class="image">
+				<img src="https://images.unsplash.com/photo-1504208434309-cb69f4fe52b0?ixlib=rb-0.3.5&ixid=
+				eyJhcHBfaWQiOjEyMDd9&s=f35e7bc5ab7c860cef3684c704b7fe1f&auto=format&fit=crop&w=1950&q=80"
+					class="projectContainerImage" alt="Music video frame">
+			</div>
+		</div>
+	</div>
+
+	<div class="projectContainer">
+		<div class="right">
+			<div class="text">
+				<h3 class="projectPageTitle">Song: 
+					<a class="musicLink" href="Music001.html#LFOY"><em class="musicLink">Longing for Our Youths</em></a> (pre-coding)</h3>
+				<p class="projectPageText">Before coding started, I created the quarter-window tile patterns in Inkscape. I then 
+					created a timing sheet which I could assign how long a pattern would be onscreen for before moving onto the 
+					next pattern. I matched the changing of quarter-patterns to the different instruments changing what they play. 
+					Each quarter-window of the video roughly represents an instrument. Using a timing sheet (rather than automatically 
+					changing) allowed me to be incredibly flexible with the timings.</p>
+			</div>
+			<div class="image">
+				<img src="https://images.unsplash.com/photo-1504208434309-cb69f4fe52b0?ixlib=rb-0.3.5&ixid=
+				eyJhcHBfaWQiOjEyMDd9&s=f35e7bc5ab7c860cef3684c704b7fe1f&auto=format&fit=crop&w=1950&q=80"
+					class="projectContainerImage" alt="Timing sheet and black and white pattern">
+			</div>
+		</div>
+	</div>
+
+	<div class="projectContainer">
+		<div class="left">
+			<div class="text">
+				<h3 class="projectPageTitle">Song: 
+					<a class="musicLink" href="Music001.html#LFOY"><em class="musicLink">Longing for Our Youths</em></a> (coding)</h3>
+				<p class="projectPageText">In the code, this timing sheet was imported and cycled through each quarter for the required 
+					time calculated in the timing sheet. In tandem with reading the timing sheet and going through the patterns, the FFT 
+					was generated and analysed at a completely different rate so the time step of the video had to be very small. It took 
+					~40 minutes to render the video!</p>
+			</div>
+			<div class="image">
+				<img src="https://images.unsplash.com/photo-1504208434309-cb69f4fe52b0?ixlib=rb-0.3.5&ixid=
+				eyJhcHBfaWQiOjEyMDd9&s=f35e7bc5ab7c860cef3684c704b7fe1f&auto=format&fit=crop&w=1950&q=80"
+					class="projectContainerImage" alt="Music video frame">
+			</div>
+		</div>
+	</div>
+
+	<div class="projectContainer">
+		<div class="right">
+			<div class="text">
+				<h3 class="projectPageTitle">Song: 
+					<a class="musicLink" href="Music001.html#LIP"><em class="musicLink">Lost in Place</em></a></h3>
+				<p class="projectPageText">This music video had the least amount of code (and the most amount of walking!). The code 
+					here simply counted how many pictures there were then iterated through the pictures at a calculated frequency so 
+					the final pictures tied in with the end of the song.</p>
+			</div>
+			<div class="image">
+				<img src="https://images.unsplash.com/photo-1504208434309-cb69f4fe52b0?ixlib=rb-0.3.5&ixid=
+				eyJhcHBfaWQiOjEyMDd9&s=f35e7bc5ab7c860cef3684c704b7fe1f&auto=format&fit=crop&w=1950&q=80"
+					class="projectContainerImage" alt="Music video frame">
+			</div>
+		</div>
+	</div>
+
+	<div class="projectContainer">
+		<div class="left">
+			<div class="text">
+				<h3 class="projectPageTitle">Summary</h3>
+				<p class="projectPageText">I hope to make a lot more of these style music videos. Not only is good programming practice, 
+					it allows me to exercise creativity in a completely different way - coming up with ideas for a music video that 
+					reflects the song and can be created in Processing using coding and a combination of other graphics software. Maybe 
+					one day I will make a 3D-effect FFT?</p>
+			</div>
+			<div class="image">
+				<img src="https://images.unsplash.com/photo-1504208434309-cb69f4fe52b0?ixlib=rb-0.3.5&ixid=
+				eyJhcHBfaWQiOjEyMDd9&s=f35e7bc5ab7c860cef3684c704b7fe1f&auto=format&fit=crop&w=1950&q=80"
+					class="projectContainerImage" alt="3D-effect video example">
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<!--________________________________________________________________________FOOTER________________________________________________________________________-->
+<footer>
+	<img src="Media\Images\LOGO_Flat0.png" class="footerImage">
+	
+	<div class="footerLine"></div>
+	
+	<div class="footerText">
+		<p class="footerEmail">Email: <em>n.meswania@gmail.com</em></p>
+		<a href="SiteMap001.html" style="color:#ffffff">Site map</a>
+		<p class="copyRight">&copy; 2018 Neal Meswania</p>
+	</div>
+</footer>
+
+	
+</body>
+
+
+
+</html>
