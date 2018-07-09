@@ -50,6 +50,7 @@ p {    color: #161616;	letter-spacing: 0.05em;	font-size: 0.975vw;	padding: 0.5e
 .landingText	{	font-size:1.3vw;	padding: 0.5em 0em 1.5em;	}
 .landingImageText	{	text-align: center;	padding: 0.1em;	}
 .projectPageText	{ 	color: #161616;	font-size: 1.3vw;	}
+.projectTileText	{	color: #ffffff;	font-size: 1.3vw;	padding: 1em 0em 1.5em;	}
 .musicDescription	{	color: #ffffff;	}
 .musicIntroText	{	color: #ffffff;	font-size: 1.1vw;	}	
 .musicHeadingText	{	text-align: center;	padding: 0vw 1vw;	}
@@ -68,6 +69,7 @@ a:link, a:visited	{	text-decoration: none;	}
 a:hover, a:active	{	text-decoration: underline;	}
 a.landingText	{	font-size: inherit;	}
 a.musicLink	{	font-size: inherit;	color: inherit;	letter-spacing: inherit; font-weight: inherit;	}
+.projectTileLink 	{	color: #ffffff;	cursor: pointer;	text-decoration: underline;	padding: 0em 1em; font-size: 1.2vw;	}
 
 label	{	letter-spacing: 0.1em;	padding: 0vw;	margin: 0vw;	font-size: 0.975vw;	font-weight: bold;	display: inline;	}
 
@@ -278,7 +280,7 @@ footer {
 }
 .projectsContainer .projectImage:hover .image {
 	-webkit-filter: grayscale(100%);    filter: grayscale(100%);
-	opacity: 0.5;
+	opacity: 0.3;
 }
 .projectsContainer .projectImage:hover .middle {
 	opacity: 1;
@@ -331,41 +333,41 @@ footer {
 .projectContainer .left {
 	width: inherit;	height: inherit;
 	background: linear-gradient(to right, rgba(40,157,211,0), rgba(40,157,211,1) 60%);
-	-webkit-animation: swipeLeft 1s ease-in-out;	animation: swipeLeft 1s ease-in-out;
+	-webkit-animation: swipeLeft 0.75s ease-in-out;	animation: swipeLeft 0.75s ease-in-out;
 }
 .projectContainer .left .text {
 	text-align: left;	padding: 2% 5% 15%;
 	width: 60%;
 	opacity: 0;
 	float: left;
-	-webkit-animation: textFadeIn 1s ease-in-out 1s forwards;	animation: textFadeIn 1s ease-in-out 1s forwards;
+	-webkit-animation: textFadeIn 0.75s ease-in-out 0.75s forwards;	animation: textFadeIn 0.75s ease-in-out 0.75s forwards;
 }
 .projectContainer .left .image {
 	width: 40%;	height: inherit;
 	overflow: hidden;
 	opacity: 0;
 	float: left;
-	-webkit-animation: textFadeIn 1s ease-in-out 1s forwards;	animation: textFadeIn 1s ease-in-out 1s forwards;
+	-webkit-animation: textFadeIn 0.75s ease-in-out 0.75s forwards;	animation: textFadeIn 0.75s ease-in-out 0.75s forwards;
 }
 
 .projectContainer .right {
 	width: inherit;	height: inherit;
 	background: linear-gradient(to left, rgba(32,163,87,0), rgba(32,163,87,1) 70%);
-	-webkit-animation: swipeRight 1s ease-in-out;	animation: swipeRight 1s ease-in-out;
+	-webkit-animation: swipeRight 0.75s ease-in-out;	animation: swipeRight 0.75s ease-in-out;
 }
 .projectContainer .right .text {
 	text-align: right;	padding: 2% 5% 15%;
 	width: 60%;
 	float: right;
 	opacity: 0;
-	-webkit-animation: textFadeIn 1s ease-in-out 1s forwards;	animation: textFadeIn 1s ease-in-out 1s forwards;
+	-webkit-animation: textFadeIn 0.75s ease-in-out 0.75s forwards;	animation: textFadeIn 0.75s ease-in-out 0.75s forwards;
 }
 .projectContainer .right .image {
 	width: 40%;	height: inherit;
 	overflow: hidden;
 	opacity: 0;
 	float: right;
-	-webkit-animation: textFadeIn 1s ease-in-out 1s forwards;	animation: textFadeIn 1s ease-in-out 1s forwards;
+	-webkit-animation: textFadeIn 1s ease-in-out 0.75s forwards;	animation: textFadeIn 1s ease-in-out 0.75s forwards;
 }
 
 .projectContainer .centre {

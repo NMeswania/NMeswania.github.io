@@ -1,0 +1,175 @@
+<!--Testing of layouts and interactions of HTML-->
+
+<!DOCTYPE html>
+<html>
+
+
+<head>
+	<title>Project 9 | Neal Meswania</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="CSS\styleMASTER_003.css">
+</head>
+
+
+
+<body>
+
+<!--________________________________________________________________________HEADER________________________________________________________________________-->
+<a href="index.html">
+	<header>
+		<div class="headerTitle">
+			<h1>Neal</h1>
+		</div>
+		<img src="Media\Images\LOGO_Flat0.png" class="headerImage">
+		<div class="headerTitle" style="text-align: left;">
+			<h1>Meswania</h1>
+		</div>
+	</header>
+</a>
+
+
+<!--________________________________________________________________________NAV-BAR________________________________________________________________________-->
+<nav class="sticky">
+	<a href="index.html">			<button class="nav0" id="NavBarAbout"><h2>About</h2></button></a>
+	<a href="Projects001.html">		<button class="navSelP" id="NavBarProjects"><h2>Projects</h2></button></a>
+	<a href="Competencies001.html">	<button class="nav0" id="NavBarSoftware"><h2>Software</h2></button></a>
+	<a href="Music001.html">		<button class="nav0" id="NavBarMusic"><h2>Music</h2></button></a>
+	<a href="Contact001.html">		<button class="nav0" id="NavBarContact"><h2>Contact</h2></button></a>
+</nav>
+
+
+<!--________________________________________________________________________CONTENT________________________________________________________________________-->
+<h2 class="projectPadeHeading">Treasure Hunting Robot</h2>
+
+
+<section>
+	<div class="projectContainer">
+		<div class="left">
+			<div class="text">
+				<h3 class="projectPageTitle">The Brief</h3>
+				<p class="projectPageText">As the title describes, in a pair, we designed an X-Y gantry robot attachment that was to 
+					scan over an area for 5 magnets and then mark the locations of these magnets using plastic cups. I worked on the 
+					control system and search/ place algorithms, using MATLAB to control the robot (tethered system).</p>
+			</div>
+			<div class="image">
+				<img src="https://images.unsplash.com/photo-1459541708374-6fe9eea39a29?ixlib=rb-0.3.5&ixid=
+				eyJhcHBfaWQiOjEyMDd9&s=475e22522ecbb80d3abfa1ca7a37eaf7&auto=format&fit=crop&w=1050&q=80"
+					class="projectContainerImage" alt="X-Y gantry">
+			</div>
+		</div>
+	</div>
+
+	<div class="projectContainer">
+		<div class="right">
+			<div class="text">
+				<h3 class="projectPageTitle">Challenges</h3>
+				<p class="projectPageText">Did I mention we only had 2 weeks to do this project from brief to final presentation 
+					(on top of other University course work)? This meant we could not make any design mistakes; redoing work would 
+					cost us dearly.</p>
+			</div>
+			<div class="image">
+				<img src="https://images.unsplash.com/photo-1459541708374-6fe9eea39a29?ixlib=rb-0.3.5&ixid=
+				eyJhcHBfaWQiOjEyMDd9&s=475e22522ecbb80d3abfa1ca7a37eaf7&auto=format&fit=crop&w=1050&q=80"
+					class="projectContainerImage" alt="Project timeline">
+			</div>
+		</div>
+	</div>
+
+	<div class="projectContainer">
+		<div class="left">
+			<div class="text">
+				<h3 class="projectPageTitle">Development</h3>
+				<p class="projectPageText">Having a giant whiteboard next to my desk really helped with designing the searching and 
+					placing algorithms. I could map out search nodes and graphically express what I wanted the robot to do. A 
+					Hall-Effect sensor was used to detect magnets.</p>
+			</div>
+			<div class="image">
+				<img src="https://images.unsplash.com/photo-1459541708374-6fe9eea39a29?ixlib=rb-0.3.5&ixid=
+				eyJhcHBfaWQiOjEyMDd9&s=475e22522ecbb80d3abfa1ca7a37eaf7&auto=format&fit=crop&w=1050&q=80"
+					class="projectContainerImage" alt="Whiteboard picture of workings out">
+			</div>
+		</div>
+	</div>
+
+	<div class="projectContainer">
+		<div class="right">
+			<div class="text">
+				<h3 class="projectPageTitle">Final Design: Searching</h3>
+				<p class="projectPageText">Before searching could begin, the robot needed to know how big the beach was (it measured 
+					the scan area). The search algorithm was simple: it scanned over an area in a snaking pattern in 6 mm steps.</p>
+			</div>
+			<div class="image">
+				<img src="https://images.unsplash.com/photo-1459541708374-6fe9eea39a29?ixlib=rb-0.3.5&ixid=
+				eyJhcHBfaWQiOjEyMDd9&s=475e22522ecbb80d3abfa1ca7a37eaf7&auto=format&fit=crop&w=1050&q=80"
+					class="projectContainerImage" alt="Search algorithm diagram">
+			</div>
+		</div>
+	</div>
+
+	<div class="projectContainer">
+		<div class="left">
+			<div class="text">
+				<h3 class="projectPageTitle">Final Design: Location Treasure</h3>
+				<p class="projectPageText">Locating peaks was done by building up a matrix “treasure map” of sensor data then looking 
+					for the largest magnetic peak. Once found, this peak (and local area around the peak) would be reduced to 0, allowing 
+					for the next highest peak to be found. Repeating 5 times gave the 5 treasure locations.</p>
+			</div>
+			<div class="image">
+				<img src="https://images.unsplash.com/photo-1459541708374-6fe9eea39a29?ixlib=rb-0.3.5&ixid=
+				eyJhcHBfaWQiOjEyMDd9&s=475e22522ecbb80d3abfa1ca7a37eaf7&auto=format&fit=crop&w=1050&q=80"
+					class="projectContainerImage" alt="Peak graph reduced to 0">
+			</div>
+		</div>
+	</div>
+
+	<div class="projectContainer">
+		<div class="right">
+			<div class="text">
+				<h3 class="projectPageTitle">Final Design: Marking</h3>
+				<p class="projectPageText">Marking would calculate the distance to the nearest magnet, then move to it, place the marker 
+					and cross that location off the list of magnets to mark.</p>
+			</div>
+			<div class="image">
+				<img src="https://images.unsplash.com/photo-1459541708374-6fe9eea39a29?ixlib=rb-0.3.5&ixid=
+				eyJhcHBfaWQiOjEyMDd9&s=475e22522ecbb80d3abfa1ca7a37eaf7&auto=format&fit=crop&w=1050&q=80"
+					class="projectContainerImage" alt="Search algorithm diagram">
+			</div>
+		</div>
+	</div>
+
+	<div class="projectContainer">
+		<div class="left">
+			<div class="text">
+				<h3 class="projectPageTitle">Skills</h3>
+				<p class="projectPageText">With the serious deadline in place, my coding under pressure was massively boosted. I also had 
+					to work closely with the hardware developer through the design-make-test cycle.</p>
+			</div>
+			<div class="image">
+				<img src="https://images.unsplash.com/photo-1459541708374-6fe9eea39a29?ixlib=rb-0.3.5&ixid=
+				eyJhcHBfaWQiOjEyMDd9&s=475e22522ecbb80d3abfa1ca7a37eaf7&auto=format&fit=crop&w=1050&q=80"
+					class="projectContainerImage" alt="Hardware image">
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<!--________________________________________________________________________FOOTER________________________________________________________________________-->
+<footer>
+	<img src="Media\Images\LOGO_Flat0.png" class="footerImage">
+	
+	<div class="footerLine"></div>
+	
+	<div class="footerText">
+		<p class="footerEmail">Email: <em>n.meswania@gmail.com</em></p>
+		<a href="SiteMap001.html" style="color:#ffffff">Site map</a>
+		<p class="copyRight">&copy; 2018 Neal Meswania</p>
+	</div>
+</footer>
+
+	
+</body>
+
+
+
+</html>

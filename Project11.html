@@ -1,0 +1,178 @@
+<!--Testing of layouts and interactions of HTML-->
+
+<!DOCTYPE html>
+<html>
+
+
+<head>
+	<title>Project 11 | Neal Meswania</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="CSS\styleMASTER_003.css">
+</head>
+
+
+
+<body>
+
+<!--________________________________________________________________________HEADER________________________________________________________________________-->
+<a href="index.html">
+	<header>
+		<div class="headerTitle">
+			<h1>Neal</h1>
+		</div>
+		<img src="Media\Images\LOGO_Flat0.png" class="headerImage">
+		<div class="headerTitle" style="text-align: left;">
+			<h1>Meswania</h1>
+		</div>
+	</header>
+</a>
+
+
+<!--________________________________________________________________________NAV-BAR________________________________________________________________________-->
+<nav class="sticky">
+	<a href="index.html">			<button class="nav0" id="NavBarAbout"><h2>About</h2></button></a>
+	<a href="Projects001.html">		<button class="navSelP" id="NavBarProjects"><h2>Projects</h2></button></a>
+	<a href="Competencies001.html">	<button class="nav0" id="NavBarSoftware"><h2>Software</h2></button></a>
+	<a href="Music001.html">		<button class="nav0" id="NavBarMusic"><h2>Music</h2></button></a>
+	<a href="Contact001.html">		<button class="nav0" id="NavBarContact"><h2>Contact</h2></button></a>
+</nav>
+
+
+<!--________________________________________________________________________CONTENT________________________________________________________________________-->
+<h2 class="projectPadeHeading">UV Curing Chamber: CAD</h2>
+
+
+<section>
+	<div class="projectContainer">
+		<div class="left">
+			<div class="text">
+				<h3 class="projectPageTitle">The Brief</h3>
+				<p class="projectPageText">On industrial placement, I was tasked to design a UV curing chamber for 3DP parts. This 
+					would be used by all staff so it had to be robust, minimum light leakage and have a door-lock. The electronics 
+					and software are discussed in: Project UV Curing Chamber: 
+					<a href="Project5.html"><em class="projectLink" style="color: #161616">UV Curing Chamber: Electronics & Software</em></a>.</p>
+			</div>
+			<div class="image">
+				<img src="https://images.unsplash.com/photo-1526254793054-c5366c3eba06?ixlib=rb-0.3.5&ixid=
+				eyJhcHBfaWQiOjEyMDd9&s=86eb5c1603cde145269281e9381df146&auto=format&fit=crop&w=1020&q=80"
+					class="projectContainerImage" alt="Example Formlabs 3DP part">
+			</div>
+		</div>
+	</div>
+
+	<div class="projectContainer">
+		<div class="right">
+			<div class="text">
+				<h3 class="projectPageTitle">Challenges</h3>
+				<p class="projectPageText">Making sure there was no light leakage was the main priority for the housing. Inside, there 
+					needed to be a way to ensure an even coverage of UV light. I was also restricted to using only laser cut acrylic.</p>
+			</div>
+			<div class="image">
+				<img src="https://images.unsplash.com/photo-1526254793054-c5366c3eba06?ixlib=rb-0.3.5&ixid=
+				eyJhcHBfaWQiOjEyMDd9&s=86eb5c1603cde145269281e9381df146&auto=format&fit=crop&w=1020&q=80"
+					class="projectContainerImage" alt="UV light warning sign">
+			</div>
+		</div>
+	</div>
+
+	<div class="projectContainer">
+		<div class="left">
+			<div class="text">
+				<h3 class="projectPageTitle">Development</h3>
+				<p class="projectPageText">If someone needed to cure a solid block at the maximum print size for a Formlabs 2, they 
+					could fit it in the chamber curing area (not sure why someone would do that, but this is designing for extremes). 
+					The dimensions of everything else was based from this. I also repurposed a kitchen drawer handle from my bosses’ 
+					kitchen as the chamber door handle.</p>
+			</div>
+			<div class="image">
+				<img src="https://images.unsplash.com/photo-1526254793054-c5366c3eba06?ixlib=rb-0.3.5&ixid=
+				eyJhcHBfaWQiOjEyMDd9&s=86eb5c1603cde145269281e9381df146&auto=format&fit=crop&w=1020&q=80"
+					class="projectContainerImage" alt="Inside the chamber">
+			</div>
+		</div>
+	</div>
+
+	<div class="projectContainer">
+		<div class="right">
+			<div class="text">
+				<h3 class="projectPageTitle">Laser Cutter Experiments</h3>
+				<p class="projectPageText">This was not as dangerous as the heading sounds! I tried using the laser cutter at different 
+					power/ speed settings to get very deep cuts. The front face had deep grooves in the back where it could slot onto 
+					the body. When looking at the chamber front-ways, you could not see any mechanical fixings.</p>
+			</div>
+			<div class="image">
+				<img src="https://images.unsplash.com/photo-1526254793054-c5366c3eba06?ixlib=rb-0.3.5&ixid=
+				eyJhcHBfaWQiOjEyMDd9&s=86eb5c1603cde145269281e9381df146&auto=format&fit=crop&w=1020&q=80"
+					class="projectContainerImage" alt="Front face showing no mechanical fixings">
+			</div>
+		</div>
+	</div>
+
+	<div class="projectContainer">
+		<div class="left">
+			<div class="text">
+				<h3 class="projectPageTitle">Final Design</h3>
+				<p class="projectPageText">The door-lock was a pin slotting into the door controlled by a servo. The electronics 
+					were stored underneath the chamber behind the interface panel. One of my more inspired designs, the interface 
+					panel is removable: it’s attached with magnets. The turntable was mounted on ball-transfer-units so the stepper 
+					motor wasn’t taking any load. The chamber is layered with foil to reflect the UV light.</p>
+			</div>
+			<div class="image">
+				<img src="https://images.unsplash.com/photo-1526254793054-c5366c3eba06?ixlib=rb-0.3.5&ixid=
+				eyJhcHBfaWQiOjEyMDd9&s=86eb5c1603cde145269281e9381df146&auto=format&fit=crop&w=1020&q=80"
+					class="projectContainerImage" alt="Electronics behind interface panel">
+			</div>
+		</div>
+	</div>
+
+	<div class="projectContainer">
+		<div class="right">
+			<div class="text">
+				<h3 class="projectPageTitle">Further Work</h3>
+				<p class="projectPageText">More laser cutter experiments were needed as I still had to file away at the mounting grooves 
+					of the front face. On a second iteration, I would like to try designing brackets from laser cut acrylic.</p>
+			</div>
+			<div class="image">
+				<img src="https://images.unsplash.com/photo-1526254793054-c5366c3eba06?ixlib=rb-0.3.5&ixid=
+				eyJhcHBfaWQiOjEyMDd9&s=86eb5c1603cde145269281e9381df146&auto=format&fit=crop&w=1020&q=80"
+					class="projectContainerImage" alt="Laser cut acrylic bracket">
+			</div>
+		</div>
+	</div>
+
+	<div class="projectContainer">
+		<div class="left">
+			<div class="text">
+				<h3 class="projectPageTitle">Skills</h3>
+				<p class="projectPageText">Just using laser cut acrylic was more of a challenge than I bargained for. However, it 
+					forced me to think creatively, like with the interface panel and the front face mounting.</p>
+			</div>
+			<div class="image">
+				<img src="https://images.unsplash.com/photo-1526254793054-c5366c3eba06?ixlib=rb-0.3.5&ixid=
+				eyJhcHBfaWQiOjEyMDd9&s=86eb5c1603cde145269281e9381df146&auto=format&fit=crop&w=1020&q=80"
+					class="projectContainerImage" alt="CAD details">
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<!--________________________________________________________________________FOOTER________________________________________________________________________-->
+<footer>
+	<img src="Media\Images\LOGO_Flat0.png" class="footerImage">
+	
+	<div class="footerLine"></div>
+	
+	<div class="footerText">
+		<p class="footerEmail">Email: <em>n.meswania@gmail.com</em></p>
+		<a href="SiteMap001.html" style="color:#ffffff">Site map</a>
+		<p class="copyRight">&copy; 2018 Neal Meswania</p>
+	</div>
+</footer>
+
+	
+</body>
+
+
+
+</html>
