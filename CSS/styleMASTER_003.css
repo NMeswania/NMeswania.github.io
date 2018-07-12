@@ -80,7 +80,7 @@ iframe	{
 	padding: 0px;
 	border: 0px;
 }
-img.projectContainerImage	{	width: 100%;	height: inherit:	}
+img.projectContainerImage	{	width: 100%;	height: inherit;	}
 
 
 
@@ -146,7 +146,8 @@ button {
 	display: inline-block;
 	height: 3.2vw;
 	-webkit-transition: all 0.25s ease-out;	transition: all 0.25s ease-out;
-	cursor:pointer;	
+	cursor:pointer;
+	outline: none;
 }
 button.nav0 	{	width: 20%;	position: absolute;	}
 button.nav0:hover {	background: #aaaaaa;	-webkit-transform: translate(0px, 5px);	transform: translate(0px, 5px);	}
@@ -558,3 +559,21 @@ tr	{
 	#NavBarMusic	{	left: 0%;	}
 	#NavBarContact	{	left: 0%;	}
 }
+
+/*
+	Project placeholder images
+	
+	1 - https://images.unsplash.com/photo-1506014739647-c231072489c4
+	2 - https://images.unsplash.com/photo-1509119993276-d691aff73209
+	3 - https://images.unsplash.com/photo-1526240738457-1b84344668ed
+	4 - https://images.unsplash.com/photo-1487300001871-12053913095d
+	5 - https://images.unsplash.com/photo-1514917073844-2f691ae526c0
+	6 - https://images.unsplash.com/photo-1482066490729-6f26115b60dc
+	7 - https://images.unsplash.com/photo-1504208434309-cb69f4fe52b0
+	8 - https://images.unsplash.com/photo-1504208434309-cb69f4fe52b0
+	9 - https://images.unsplash.com/photo-1459541708374-6fe9eea39a29
+	10 - https://images.unsplash.com/photo-1483140599654-39f27a551df1
+	11 - https://images.unsplash.com/photo-1526254793054-c5366c3eba06
+	12 - https://images.unsplash.com/photo-1481134803835-48d6de104072
+	13 - https://images.unsplash.com/photo-1484244233201-29892afe6a2c
+*/
