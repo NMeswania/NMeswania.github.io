@@ -1,16 +1,10 @@
-<!--Testing of layouts and interactions of HTML-->
-
 <!DOCTYPE html>
 <html>
-
-
 <head>
 	<title>Project 7 | Neal Meswania</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="CSS\styleMASTER_003.css">
 </head>
-
-
 
 <body>
 
@@ -20,7 +14,7 @@
 		<div class="headerTitle">
 			<h1>Neal</h1>
 		</div>
-		<img src="Media\Images\LOGO_Flat0.png" class="headerImage">
+		<img src="Media\Logo.png" class="headerImage">
 		<div class="headerTitle" style="text-align: left;">
 			<h1>Meswania</h1>
 		</div>
@@ -31,10 +25,10 @@
 <!--________________________________________________________________________NAV-BAR________________________________________________________________________-->
 <nav class="sticky">
 	<a href="index.html">			<button class="nav0" id="NavBarAbout"><h2>About</h2></button></a>
-	<a href="Projects001.html">		<button class="navSelP" id="NavBarProjects"><h2>Projects</h2></button></a>
-	<a href="Competencies001.html">	<button class="nav0" id="NavBarSoftware"><h2>Software</h2></button></a>
-	<a href="Music001.html">		<button class="nav0" id="NavBarMusic"><h2>Music</h2></button></a>
-	<a href="Contact001.html">		<button class="nav0" id="NavBarContact"><h2>Contact</h2></button></a>
+	<a href="ProjectsHome.html">	<button class="navSelP" id="NavBarProjects"><h2>Projects</h2></button></a>
+	<a href="Software.html">		<button class="nav0" id="NavBarSoftware"><h2>Software</h2></button></a>
+	<a href="Music.html">			<button class="nav0" id="NavBarMusic"><h2>Music</h2></button></a>
+	<a href="Contact.html">			<button class="nav0" id="NavBarContact"><h2>Contact</h2></button></a>
 </nav>
 
 
@@ -54,7 +48,7 @@
 					Click on a song title to see the video and listen to the song.</p>
 			</div>
 			<div class="image">
-				<img src="Media\Images\Projects\Project7\MV_tile1.png"
+				<img src="Media\Projects\Project7\Project7_tile1.png"
 					class="projectContainerImage" alt="Java and Processing logo">
 			</div>
 		</div>
@@ -69,7 +63,7 @@
 					which scales the logo to match.</p>
 			</div>
 			<div class="image">
-				<img src="Media\Images\Projects\Project7\MV_tile2.png"
+				<img src="Media\Projects\Project7\Project7_tile2.png"
 					class="projectContainerImage" alt="Intro jingle frame">
 			</div>
 		</div>
@@ -79,13 +73,13 @@
 		<div class="left">
 			<div class="text">
 				<h3 class="projectPageTitle">Song: 
-					<a class="musicLink" href="Music001.html#SCC"><em class="musicLink">Suburban Cafe Complex</em></a></h3>
+					<a class="musicLink" href="Music.html#SCC"><em class="musicLink">Suburban Cafe Complex</em></a></h3>
 				<p class="projectPageText">In this video there are 2 types of sound analysis being shown: the two waveforms in the 
 					centre of the video are the left and right audio channels, there is an FFT at the bottom of the video. The low 
 					bass note is really apparent in the audio waveforms!</p>
 			</div>
 			<div class="image">
-				<img src="Media\Images\Projects\Project7\MV_tile3.png"
+				<img src="Media\Projects\Project7\Project7_tile3.png"
 					class="projectContainerImage" alt="Music video frame">
 			</div>
 		</div>
@@ -95,7 +89,7 @@
 		<div class="right">
 			<div class="text">
 				<h3 class="projectPageTitle">Song: 
-					<a class="musicLink" href="Music001.html#LFOY"><em class="musicLink">Longing for Our Youths</em></a> (pre-coding)</h3>
+					<a class="musicLink" href="Music.html#LFOY"><em class="musicLink">Longing for Our Youths</em></a> (pre-coding)</h3>
 				<p class="projectPageText">Before coding started, I created the quarter-window tile patterns in Inkscape. I then 
 					created a timing sheet which I could assign how long a pattern would be onscreen for before moving onto the 
 					next pattern. I matched the changing of quarter-patterns to the different instruments changing what they play. 
@@ -103,7 +97,7 @@
 					changing) allowed me to be incredibly flexible with the timings.</p>
 			</div>
 			<div class="image">
-				<img src="Media\Images\Projects\Project7\MV_tile4.png"
+				<img src="Media\Projects\Project7\Project7_tile4.png"
 					class="projectContainerImage" alt="Timing sheet and black and white pattern">
 			</div>
 		</div>
@@ -113,14 +107,14 @@
 		<div class="left">
 			<div class="text">
 				<h3 class="projectPageTitle">Song: 
-					<a class="musicLink" href="Music001.html#LFOY"><em class="musicLink">Longing for Our Youths</em></a> (coding)</h3>
+					<a class="musicLink" href="Music.html#LFOY"><em class="musicLink">Longing for Our Youths</em></a> (coding)</h3>
 				<p class="projectPageText">In the code, this timing sheet was imported and cycled through each quarter for the required 
 					time calculated in the timing sheet. In tandem with reading the timing sheet and going through the patterns, the FFT 
 					was generated and analysed at a completely different rate so the time step of the video had to be very small. It took 
 					~40 minutes to render the video!</p>
 			</div>
 			<div class="image">
-				<img src="Media\Images\Projects\Project7\MV_tile5.png"
+				<img src="Media\Projects\Project7\Project7_tile5.png"
 					class="projectContainerImage" alt="Music video frame">
 			</div>
 		</div>
@@ -130,13 +124,13 @@
 		<div class="right">
 			<div class="text">
 				<h3 class="projectPageTitle">Song: 
-					<a class="musicLink" href="Music001.html#LIP"><em class="musicLink">Lost in Place</em></a></h3>
+					<a class="musicLink" href="Music.html#LIP"><em class="musicLink">Lost in Place</em></a></h3>
 				<p class="projectPageText">This music video had the least amount of code (and the most amount of walking!). The code 
 					here simply counted how many pictures there were then iterated through the pictures at a calculated frequency so 
 					the final pictures tied in with the end of the song.</p>
 			</div>
 			<div class="image">
-				<img src="Media\Images\Projects\Project7\MV_tile6.png"
+				<img src="Media\Projects\Project7\Project7_tile6.png"
 					class="projectContainerImage" alt="Music video frame">
 			</div>
 		</div>
@@ -152,7 +146,7 @@
 					one day I will make a 3D-effect FFT?</p>
 			</div>
 			<div class="image">
-				<img src="Media\Images\Projects\Project7\MV_tile7.png"
+				<img src="Media\Projects\Project7\Project7_tile7.png"
 					class="projectContainerImage" alt="3D-effect video example">
 			</div>
 		</div>
@@ -162,20 +156,16 @@
 
 <!--________________________________________________________________________FOOTER________________________________________________________________________-->
 <footer>
-	<img src="Media\Images\LOGO_Flat0.png" class="footerImage">
+	<img src="Media\Logo.png" class="footerImage">
 	
 	<div class="footerLine"></div>
 	
 	<div class="footerText">
 		<p class="footerEmail">Email: <em>n.meswania@gmail.com</em></p>
-		<a href="SiteMap001.html" style="color:#ffffff">Site map</a>
+		<a href="SiteMap.html" style="color:#ffffff">Site map</a>
 		<p class="copyRight">&copy; 2018 Neal Meswania</p>
 	</div>
 </footer>
 
-	
 </body>
-
-
-
 </html>

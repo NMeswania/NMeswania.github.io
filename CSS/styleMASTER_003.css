@@ -544,7 +544,7 @@ tr	{
 
 /*---------------------------------------------------------------- RESPONSIVE ----------------------------------------------------------------*/
 @media only screen and (max-width: 800px) {	
-	h1 {    color: #ffffff;	letter-spacing: 0.5em;	padding: 0vw;	margin: 0vw;	font-size: 40px;	}
+	h1 {    color: #ffffff;	letter-spacing: 0.5em;	padding: 0vw;	margin: 0vw;	font-size: 15px;	}
 	nav	{	height: 15.99vw;	}
 	nav.sticky	{	position: relative;	}
 	button.nav0 	{	width: 100%;	display: block;	position: relative;	}
@@ -558,6 +558,11 @@ tr	{
 	#NavBarSoftware {	left: 0%;	}
 	#NavBarMusic	{	left: 0%;	}
 	#NavBarContact	{	left: 0%;	}
+	.projectsContainer .projectImage {	
+		width: 50%;
+		padding: 10px;	margin: 0px;	border: 0px;
+		display: block;
+	}
 }
 
 /*
