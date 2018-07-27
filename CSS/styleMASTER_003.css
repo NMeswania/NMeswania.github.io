@@ -389,6 +389,24 @@ footer {
 	-webkit-animation: textFadeIn 0.5s ease-in-out 0.5s forwards;	animation: textFadeIn 0.5s ease-in-out 0.5s forwards;
 }
 
+#animalBanner {
+	height: 150px;
+	margin: 0;
+}
+
+#animalTiles{
+	display: block;
+	height: 550px;
+	text-align: center;
+	margin: 5px 0;
+}
+
+img.animalTile {
+	width: 19.5%;
+	margin: 0 auto;
+	padding: 0;
+}
+
 @keyframes swipeRight {
 	0% 		{	width: 0%;	}
 	100%	{	width: 100%;}
@@ -575,7 +593,7 @@ tr	{
 	5 - https://images.unsplash.com/photo-1514917073844-2f691ae526c0
 	6 - https://images.unsplash.com/photo-1482066490729-6f26115b60dc
 	7 - https://images.unsplash.com/photo-1504208434309-cb69f4fe52b0
-	8 - https://images.unsplash.com/photo-1504208434309-cb69f4fe52b0
+	8 - https://images.unsplash.com/photo-1522136846210-1f22a26c02c4
 	9 - https://images.unsplash.com/photo-1459541708374-6fe9eea39a29
 	10 - https://images.unsplash.com/photo-1483140599654-39f27a551df1
 	11 - https://images.unsplash.com/photo-1526254793054-c5366c3eba06
