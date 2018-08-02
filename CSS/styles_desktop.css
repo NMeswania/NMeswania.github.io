@@ -38,6 +38,8 @@ h3 {    color: #161616;	letter-spacing: 0.1em;	padding: 0vw;	margin: 0vw;	font-s
 h4 {    color: #ffffff;	letter-spacing: 0.1em;	padding: 0vw;	margin: 0vw;	font-size: 1.3vw;	font-weight: bold;	}
 .compPanelSubTitle	{	font-size:1vw;	padding: 0.5em 0em 0em;	letter-spacing: 0.1em;	}
 .musicGenre	{	color: #161616;	font-weight: normal;	}
+.softwareHeading	{	padding: 0em 0em 0.5em;	}
+.skillLevel {	font-style:italic;	font-size:1vw;	}
 
 h5 {    color: #5d0000;	letter-spacing: 0.1em;	padding: 0vw;	margin: 0vw;	}
 
@@ -451,6 +453,8 @@ img.animalTile {
 img.compImage2 {
 	-webkit-filter: grayscale(100%);    filter: grayscale(100%);
 	-webkit-transition: 0.3s ease-in-out;	transition: 0.3s ease-in-out;
+	width: 100%;
+	height: 100%;
 }
 img.compImage2:hover {	-webkit-filter: grayscale(0%);    filter: grayscale(0%);	}
 

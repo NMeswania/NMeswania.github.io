@@ -1,0 +1,1 @@
+window.resizeTo(screen.width-300,screen.height-500);
