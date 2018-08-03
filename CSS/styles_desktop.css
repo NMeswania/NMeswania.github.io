@@ -65,6 +65,7 @@ em	{	color: #ffffff;	font-weight: 200;	padding-top: 0px;	}
 em.contactEM	{	color: #161616;	}
 em.projectLink	{	font-size: 1.3vw;	}
 em.musicLink	{	font-size: inherit;	color: inherit;	letter-spacing: inherit; font-weight: inherit;	}
+em.caption		{	font-weight: 400;	color: #161616;	}
 
 a {    color: #161616;	letter-spacing: 0.05em;	font-size: 0.975vw;	padding-top: 1em;	font-style: normal;	}
 a:link, a:visited	{	text-decoration: none;	}
@@ -228,7 +229,8 @@ footer {
 	justify-content: space-around;
 	padding: 0px;	margin: 3vw auto;	border: 0px;
 }
-.landingContainer .text {	padding-right: 3%;	}
+.landingContainer .text {	padding-right: 0%;	}
+.landingContainer .image {	text-align: center;	float: right;	}
 .landingContainerImage {
 	width: 25vw;	height: 25vw;
 	background-color: #5e3030;
