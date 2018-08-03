@@ -7,16 +7,16 @@
 	<link rel="stylesheet" href="CSS\styles_mobile.css">
 </head>
 
-<body onload="resizeWindow()">
+<body>
 
 <!--________________________________________________________________________HEADER________________________________________________________________________-->
 <a href="index.html">
 	<header>
-		<div class="headerTitle">
+		<div class="headerTitle" id="neal" id="neal">
 			<h1>Neal</h1>
 		</div>
 		<img src="Media\Logo.png" class="headerImage">
-		<div class="headerTitle" style="text-align: left;">
+		<div class="headerTitle" id="meswania">
 			<h1>Meswania</h1>
 		</div>
 	</header>
@@ -37,8 +37,13 @@
 <!--________________________________________________________________________CONTENT________________________________________________________________________-->
 <div class="landingContainer">
 	<div class="text">
+		<div class="image">
+			<img src="Media\face1.png" alt="My face, in a suit" class="landingContainerImage">
+			<p class="landingImageText landingText"><em class="caption">My Face</em><p>
+		</div>
+		
 		<h3 class="landingSubTitle">Who am I?</h3>
-		<p class="landingText">I'm an Integrated Design Engineer student in my Master's year at the University of Bath whos loves to make stuff</p>
+		<p class="landingText">I'm an Integrated Design Engineer student in my Master's year at the University of Bath whos lives to make stuff</p>
 		
 		<h3 class="landingSubTitle">What is this website for?</h3>
 		<p class="landingText">It showcases some of my favourite and most challenging 
@@ -53,10 +58,6 @@
 		<p class="landingText">In engineering: mechatronics, design, coding and prototyping<br> 
 		Out engineering: music, carpentry, cooking and design</p>
 	</div>
-	<div>
-		<img src="Media\face1.png" alt="My face, in a suit" class="landingContainerImage">
-		<p class="landingImageText"><em class="contactEM">My Face<em><p>
-	</div>
 </div>
 
 
@@ -68,7 +69,7 @@
 	
 	<div class="footerText">
 		<p class="footerEmail">Email: <em>n.meswania@gmail.com</em></p>
-		<a href="SiteMap.html" style="color:#ffffff">Site map</a>
+		<a href="SiteMap.html" class="siteMapLink">Site map</a>
 		<p class="copyRight">&copy; 2018 Neal Meswania</p>
 	</div>
 </footer>
