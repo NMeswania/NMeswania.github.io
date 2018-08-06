@@ -23,12 +23,13 @@ body {
 h1 {    color: #ffffff;	letter-spacing: 0.5em;	padding: 0vw;	margin: 0vw;	font-size: 30px;	}
 
 h2 {    color: #ffffff;	letter-spacing: 0.2em; 	padding: 0vw;	margin: 0vw;	font-size: 18px;	font-weight: normal;	}
-.pageOverview {	text-align:center;	color:#161616;	letter-spacing: 0.1em;	padding: 1.5em 1em 1em;	font-size: 1.3vw;	}
-.projectMainTitle	{	font-size:1.6vw;	font-weight:bold;	padding-top:1vw;	}
-.projectPadeHeading	{	color:#161616;	text-align:center;	font-size:1.6vw;	padding: 2vw 0vw 1vw;	}
+.pageOverview {	text-align: center;	color: #161616;	letter-spacing: 0.1em;	padding: 0.5em;	font-size: 20px;	}
+.projectMainTitle	{	font-size: 25px;	font-weight: bold;	padding-top: 1vw;	}
+.projectPadeHeading	{	color: #161616;	text-align: center;	font-size: 1.6vw;	padding: 2vw 0vw 1vw;	}
 
 h3 {    color: #161616;	letter-spacing: 0.1em;	padding: 0vw;	margin: 0vw;	font-size: 0.975vw;	font-weight: bold;		}
 .landingSubTitle	{	color: #161616;	font-size: 20px;	}
+.projectFilterTitle	{	font-size: 15px;	}
 .projectPageTitle	{	color: #161616;	font-size: 1.6vw;	}
 .musicSubTitle	{	color:#ffffff;	font-size:1.6vw;	padding-bottom: 0.5em;	}
 .musicChannelLink	{	color:#ffffff;	font-size: inherit;	display: absolute;	top: 0%;	right: 0%;	}
@@ -36,10 +37,10 @@ h3 {    color: #161616;	letter-spacing: 0.1em;	padding: 0vw;	margin: 0vw;	font-s
 .contactDetailsR	{	font-size: 1vw;	padding-right: 1vw;	-webkit-transform: translate(0%, 2vw);	transform: translate(0%, 2vw);	}
 
 h4 {    color: #ffffff;	letter-spacing: 0.1em;	padding: 0vw;	margin: 0vw;	font-size: 1.3vw;	font-weight: bold;	}
-.compPanelSubTitle	{	font-size:1vw;	padding: 0.5em 0em 0em;	letter-spacing: 0.1em;	}
+.compPanelSubTitle	{	font-size: 17px;	padding: 0.5em 0em 0em;	letter-spacing: 0.1em;	}
 .musicGenre	{	color: #161616;	font-weight: normal;	}
-.softwareHeading	{	padding: 0em 0em 0.5em;	}
-.skillLevel {	font-style:italic;	font-size:1vw;	}
+.softwareHeading	{	padding: 0em 0em 0.5em;	font-size: 22px;	}
+.skillLevel {	font-style:italic;	font-size: 18px;	}
 
 h5 {    color: #5d0000;	letter-spacing: 0.1em;	padding: 0vw;	margin: 0vw;	}
 
@@ -48,11 +49,11 @@ h6 {    color: #5d0000;	letter-spacing: 0.1em;	padding: 0vw;	margin: 0vw;	}
 p {    color: #161616;	letter-spacing: 0.05em;	font-size: 0.975vw;	padding: 0.5em 0em;	margin: 0vw;	line-height: 1.4em;	}
 .link {	color:#ffffff;	cursor:pointer;	text-decoration: underline;	padding: 0em 1em;}
 .copyRight	{	font-size:inherit;	color:inherit;	opacity:0.75;	padding-top: 0em;	}
-.compPanelText	{	color: #ffffff;	padding-left: 2vw;	padding-top: 0.75em;	}
+.compPanelText	{	color: #ffffff;	padding-left: 10px;	padding-top: 0.25em;	font-size: 15px;	}
 .landingText	{	font-size: 13px;	padding: 0.5em 0em 1.5em;	text-decoration: none;	}
 .landingImageText	{	text-align: center;	padding: 0.1em;	}
 .projectPageText	{ 	color: #161616;	font-size: 1.3vw;	}
-.projectTileText	{	color: #ffffff;	font-size: 1.3vw;	padding: 1em 0em 1.5em;	}
+.projectTileText	{	color: #ffffff;	font-size: 15px;	padding: 0.5em 0em 0.5em;	font-weight: 300;	}
 .musicDescription	{	color: #ffffff;	}
 .musicIntroText	{	color: #ffffff;	font-size: 1.1vw;	}	
 .musicHeadingText	{	text-align: center;	padding: 0vw 1vw;	}
@@ -66,13 +67,14 @@ em.contactEM	{	color: #161616;	}
 em.projectLink	{	font-size: 1.3vw;	}
 em.musicLink	{	font-size: inherit;	color: inherit;	letter-spacing: inherit; font-weight: inherit;	}
 em.caption		{	font-weight: 400;	color: #161616;	}
+em.relevantProjects	{	font-size: 15px;	}
 
 a {    color: #161616;	letter-spacing: 0.05em;	font-size: 0.975vw;	padding-top: 1em;	font-style: normal;	}
 a:link, a:visited	{	text-decoration: none;	}
 a:hover, a:active	{	text-decoration: underline;	}
 a.landingText	{	font-size: inherit;	}
 a.musicLink	{	font-size: inherit;	color: inherit;	letter-spacing: inherit; font-weight: inherit;	}
-.projectTileLink 	{	color: #ffffff;	cursor: pointer;	text-decoration: underline;	padding: 0em 1em; font-size: 1.2vw;	}
+.projectTileLink 	{	color: #ffffff;	cursor: pointer;	text-decoration: underline;	padding: 0em 1em; font-size: 15px;	}
 .siteMapLink	{	color: #ffffff;	font-size: 14px;	}
 
 label	{	letter-spacing: 0.1em;	padding: 0vw;	margin: 0vw;	font-size: 0.975vw;	font-weight: bold;	display: inline;	}
@@ -161,7 +163,7 @@ button.compImageButton {	background-color: #ffffff;	text-align: left;	height: in
 button.compImageButton:hover	{	-webkit-filter: grayscale(0%);    filter: grayscale(0%);	}
 button.musicChannel	{	width: 100%;	height: 100%;	font-size: 1.3vw;	background-color: #5d3030;}
 button.musicChannel:hover	{	background-color: #5d0000;	}
-button.projectFilter	{	background-color: #20a357;	width: 20%;	font-size: 1.1vw;	}
+button.projectFilter	{	background-color: #20a357;	width: 32.46%;	font-size: 15px;	display: inline;	}
 button.projectFilter:hover	{	background-color: rgba(32, 163, 87, 0.75);	}
 button.projectFilter.active	{	background-color: #289dd3;	}
 #NavBarAbout	{	left: 0%;	}
@@ -238,25 +240,25 @@ footer {
 
 /*---------------------------------------------------------------- project image ----------------------------------------------------------------*/
 .projectsContainer {
-	width: 75%;
+	width: 80%;
 	padding: 0px;	margin: auto;	border: 0px;
 	display: flex;
 	flex-wrap: wrap;
 }
 
 .filterBar {
-	width: 75%;
-	padding: 0px 10px;	margin: auto;	border: 0px;
+	width: 80%;
+	padding: 0px 0px;	margin: auto;	border: 0px;
 }
 .filterBar .buttons	{
-	display: flex;
-	justify-content: space-around;
-	padding: 0.25vw 0vw 10px;
+	float: left;
+	margin: auto;
+	padding: 0 1.5%;
 }
 
 .projectsContainer .projectImage {
-    width: 33.33%;
-	padding: 10px;	margin: 0px;	border: 0px;
+    width: 100%;
+	padding: 5px;	margin: 0px;	border: 0px;
 	display: block;
 }
 
@@ -277,8 +279,8 @@ footer {
 	opacity: 0;
 	position: absolute;
 	top: 10px;
-	padding-right: 20px;
-	padding-left: 20px;
+	padding-right: 10px;
+	padding-left: 10px;
 	text-align: left;
 	color: #ffffff;
 }
@@ -308,7 +310,7 @@ footer {
 	content: "";
 	position: absolute;
 	z-index: +1;
-	top: 10px;	left: 10px;	right: 10px;	bottom: 10px;
+	top: 5px;	left: 5px;	right: 5px;	bottom: 5px;
 	background: #161616;
 	-webkit-transform: scaleY(0);					transform: scaleY(0);
 	-webkit-transform-origin: 50% 100%;				transform-origin: 50% 100%;
@@ -431,15 +433,14 @@ img.animalTile {
 .container .compImage {
 	background-color: #ffffff;
 	justify-content: space-around;
-    width: 15%;
-	height: 15vw;
-	padding: 0px;	margin: 2% 3%;	border: 0px;
+    width: 25%;
+	padding: 0px;	margin: 2px;	border: 0px;
 }
 
 .info {
 	display: none;
 	background-color: #20a357;
-	height: 18vw;
+	height: 400px;		/* needs changing in JSscript_000.js too */
 	width: 100%;
 	-webkit-transition: 0.1s;	transition: 0.1s;
 	overflow: hidden;

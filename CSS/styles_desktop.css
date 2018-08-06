@@ -29,6 +29,7 @@ h2 {    color: #ffffff;	letter-spacing: 0.2em; 	padding: 0vw;	margin: 0vw;	font-
 
 h3 {    color: #161616;	letter-spacing: 0.1em;	padding: 0vw;	margin: 0vw;	font-size: 0.975vw;	font-weight: bold;		}
 .landingSubTitle	{	color: #161616;	font-size: 1.6vw;	}
+.projectFilterTitle	{	font-size: 0.975vw;	}
 .projectPageTitle	{	color: #161616;	font-size: 1.6vw;	}
 .musicSubTitle	{	color:#ffffff;	font-size:1.6vw;	padding-bottom: 0.5em;	}
 .musicChannelLink	{	color:#ffffff;	font-size: inherit;	display: absolute;	top: 0%;	right: 0%;	}
@@ -66,6 +67,7 @@ em.contactEM	{	color: #161616;	}
 em.projectLink	{	font-size: 1.3vw;	}
 em.musicLink	{	font-size: inherit;	color: inherit;	letter-spacing: inherit; font-weight: inherit;	}
 em.caption		{	font-weight: 400;	color: #161616;	}
+em.relevantProjects	{	font-size: inherit;	}
 
 a {    color: #161616;	letter-spacing: 0.05em;	font-size: 0.975vw;	padding-top: 1em;	font-style: normal;	}
 a:link, a:visited	{	text-decoration: none;	}
@@ -450,7 +452,7 @@ img.animalTile {
 }
 
 .info .text {
-	padding: 1vw 2vw;
+	padding: 1vw 10vw;
 	color: #ffffff;
 }
 img.compImage2 {
