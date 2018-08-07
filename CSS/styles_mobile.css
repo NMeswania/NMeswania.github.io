@@ -31,14 +31,14 @@ h3 {    color: #161616;	letter-spacing: 0.1em;	padding: 0vw;	margin: 0vw;	font-s
 .landingSubTitle	{	color: #161616;	font-size: 20px;	}
 .projectFilterTitle	{	font-size: 15px;	}
 .projectPageTitle	{	color: #161616;	font-size: 1.6vw;	}
-.musicSubTitle	{	color:#ffffff;	font-size:1.6vw;	padding-bottom: 0.5em;	}
-.musicChannelLink	{	color:#ffffff;	font-size: inherit;	display: absolute;	top: 0%;	right: 0%;	}
-.contactDetailsL	{	font-size: 1vw;	padding-left: 1vw;	-webkit-transform: translate(0%, 2vw);	transform: translate(0%, 2vw);	}
-.contactDetailsR	{	font-size: 1vw;	padding-right: 1vw;	-webkit-transform: translate(0%, 2vw);	transform: translate(0%, 2vw);	}
+.musicSubTitle	{	color:#ffffff;	font-size:20px;	padding-bottom: 0.25em;	}
+.musicChannelLink	{	color:#ffffff;	font-size: 20px;	padding: 0;	}
+.contactDetailsL	{	font-size: 16px;	padding-left: 5px;	padding-top: 5px;	letter-spacing: 0.05em;	}
+.contactDetailsR	{	font-size: 16px;	padding-right: 5px;	padding-top: 5px;	letter-spacing: 0.05em;	}
 
 h4 {    color: #ffffff;	letter-spacing: 0.1em;	padding: 0vw;	margin: 0vw;	font-size: 1.3vw;	font-weight: bold;	}
 .compPanelSubTitle	{	font-size: 17px;	padding: 0.5em 0em 0em;	letter-spacing: 0.1em;	}
-.musicGenre	{	color: #161616;	font-weight: normal;	}
+.musicGenre	{	color: #161616;	font-weight: normal;	font-size: 18px;	}
 .softwareHeading	{	padding: 0em 0em 0.5em;	font-size: 22px;	}
 .skillLevel {	font-style:italic;	font-size: 18px;	}
 
@@ -50,12 +50,12 @@ p {    color: #161616;	letter-spacing: 0.05em;	font-size: 0.975vw;	padding: 0.5e
 .link {	color:#ffffff;	cursor:pointer;	text-decoration: underline;	padding: 0em 1em;}
 .copyRight	{	font-size:inherit;	color:inherit;	opacity:0.75;	padding-top: 0em;	}
 .compPanelText	{	color: #ffffff;	padding-left: 10px;	padding-top: 0.25em;	font-size: 15px;	}
-.landingText	{	font-size: 13px;	padding: 0.5em 0em 1.5em;	text-decoration: none;	}
+.landingText	{	font-size: 14px;	padding: 0.5em 0em 1.5em;	text-decoration: none;	}
 .landingImageText	{	text-align: center;	padding: 0.1em;	}
 .projectPageText	{ 	color: #161616;	font-size: 1.3vw;	}
 .projectTileText	{	color: #ffffff;	font-size: 15px;	padding: 0.5em 0em 0.5em;	font-weight: 300;	}
-.musicDescription	{	color: #ffffff;	}
-.musicIntroText	{	color: #ffffff;	font-size: 1.1vw;	}	
+.musicDescription	{	color: #ffffff;	font-size: 15px;	}
+.musicIntroText	{	color: #ffffff;	font-size: 17px;	padding: 0;	}	
 .musicHeadingText	{	text-align: center;	padding: 0vw 1vw;	}
 .footerEmail	{	color: #ffffff;	font-size: 15px;	padding-bottom: 0em;	font-weight: 300;	}
 .siteMapInfo	{	padding: 0;	}
@@ -63,11 +63,14 @@ p {    color: #161616;	letter-spacing: 0.05em;	font-size: 0.975vw;	padding: 0.5e
 span	{	font-weight: normal;	}
 
 em	{	color: #ffffff;	font-weight: 200;	padding-top: 0px;	}
-em.contactEM	{	color: #161616;	}
+em.landingEM	{	color: #161616;	font-size: inherit;	}
+em.contactEM	{	color: #161616;	font-size: 15px;	display: block;	padding: 5px 25px;	}
 em.projectLink	{	font-size: 1.3vw;	}
 em.musicLink	{	font-size: inherit;	color: inherit;	letter-spacing: inherit; font-weight: inherit;	}
 em.caption		{	font-weight: 400;	color: #161616;	}
 em.relevantProjects	{	font-size: 15px;	}
+em.musicProjectLink	{	font-size: 15px;	}
+#linkedIn	{	padding-left: 0;	}
 
 a {    color: #161616;	letter-spacing: 0.05em;	font-size: 0.975vw;	padding-top: 1em;	font-style: normal;	}
 a:link, a:visited	{	text-decoration: none;	}
@@ -464,83 +467,82 @@ img.compImage2:hover {	-webkit-filter: grayscale(0%);    filter: grayscale(0%);	
 
 /*---------------------------------------------------------------- music container ----------------------------------------------------------------*/
 .musicContainer {
-	display: flex;
-	width: 100%;
-	height: 25vw;
-	justify-content: center;
+	width: 90%;
+	margin: 0 auto;
 }
 #musicIntroBox	{
-	height: 8vw;
-	margin-top: 0vw;
-}
-.musicContainer .musicText	{
-	padding: 2vw 3vw;
-	width: 40.1%;
-    text-align: center;
-	background-color: #20a357;
+	margin-top: 0;
+	margin: auto;
+	display: block;
 }
 .musicContainer .musicIntroTextbox{
-	padding: 1vw 3vw;
-	width: 77.1%;
+	padding: 5px;
+	width: 100%;
     text-align: center;
 	background-color: #289dd3;
 }
+.musicContainer .musicText	{
+	padding: 5px 8px;
+	width: 100%;
+    text-align: center;
+	background-color: #20a357;
+}
 
-.musicContainer .video	{	width: 44.4vw;	height: inherit;	}
-.musicContainer .link2	{	width: 8%;	height: inherit;	position: relative;	font-size: 1.2vw;	}
+.musicContainer .video	{	width: 100%;	height: 225px;	}
+.musicContainer .link2	{	width: 100%;	height: 80px;	font-size: 20px;	}
 
 img.channelImage	{
-	width: 100%;	height: inherit;
-	padding: 0%;	margin: 0%;
-	top: 0%;		right: 0%;
-	position: absolute;
-	opacity: 0.1;
+	width: 50px;	height: 50px;
+	margin: auto;
+	top: 0;
+	text-align: center;
+	opacity: 0.75;
+	display: inline;
 }
-img.channelImage:hover {	opacity: 0.1;	}
+.link2:hover .channelImage {	opacity: 1;	}
 
-.musicSpacer	{	height: 50px;	width: 100%;	opacity: 0;	}
+.musicSpacer	{	height: 20px;	width: 100%;	opacity: 0;	}
 
 
 
 /*---------------------------------------------------------------- contact page container ----------------------------------------------------------------*/
 .contactContainer {
-	width: 80vw;
-	height: 25vw;
+	width: 90%;
 	margin: 0px auto;
-	display: flex;
-	justify-content: left;
 }
 .contactContainer .imageContainer{
-	width: 25vw;	height: 25vw;
-	margin: 0px 0px 0px auto;
+	width: 350px;	height: 350px;
+	margin: 20px auto 0;
 }
 .contactContainer .imageContainer .image{
 	width: inherit;
 	height: inherit;
 	-webkit-box-shadow: #404040 2px 2px 10px 0px;	box-shadow: #404040 2px 2px 10px 0px;
+	margin: 0 0 5px;
 }
 
 .contactContainerDetails {
 	display: flex;
-	width: 40vw;
-	height: 5vw;
+	width: 100%;
+	height: 60px;
 	justify-content: left;
-	padding: 0vw 0vw 0vw;	margin: 0vw 0vw 5vw;	border: 0px;
+	padding: 0;
+	margin: 10px 0 30px;
 }
 .contactContainerDetails .image {
-	width: 25%;	height: inherit;
+	width: 30%;	height: inherit;
 	background-color: #20a357;
 }
 
 .contactContainerDetails .fadeG {
-	width: 3vw;	height: inherit;
+	width: 5%;	height: inherit;
 	background: linear-gradient(to right, rgba(32, 163, 87, 1), rgba(32, 163, 87, 0) 100%);
 }
 .contactContainerDetails .fadeB {
-	width: 3vw;	height: inherit;
+	width: 5%;	height: inherit;
 	background: linear-gradient(to left, rgba(40, 157, 211, 1), rgba(40, 157, 211, 0) 100%);
 }
-.contactContainerDetails .text {	width: 27vw;	height: inherit;	}
+.contactContainerDetails .text {	width: 65%;	height: inherit;	}
 
 
 
