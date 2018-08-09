@@ -25,12 +25,12 @@ h1 {    color: #ffffff;	letter-spacing: 0.5em;	padding: 0vw;	margin: 0vw;	font-s
 h2 {    color: #ffffff;	letter-spacing: 0.2em; 	padding: 0vw;	margin: 0vw;	font-size: 18px;	font-weight: normal;	}
 .pageOverview {	text-align: center;	color: #161616;	letter-spacing: 0.1em;	padding: 0.5em;	font-size: 20px;	}
 .projectMainTitle	{	font-size: 25px;	font-weight: bold;	padding-top: 1vw;	}
-.projectPadeHeading	{	color: #161616;	text-align: center;	font-size: 1.6vw;	padding: 2vw 0vw 1vw;	}
+.projectPadeHeading	{	color: #161616;	text-align: center;	font-size: 20px;	padding: 2vw 0vw 1vw;	width: 90%;}
 
 h3 {    color: #161616;	letter-spacing: 0.1em;	padding: 0vw;	margin: 0vw;	font-size: 0.975vw;	font-weight: bold;		}
 .landingSubTitle	{	color: #161616;	font-size: 20px;	}
 .projectFilterTitle	{	font-size: 15px;	}
-.projectPageTitle	{	color: #161616;	font-size: 1.6vw;	}
+.projectPageTitle	{	color: #161616;	font-size: 18px;	}
 .musicSubTitle	{	color:#ffffff;	font-size:20px;	padding-bottom: 0.25em;	}
 .musicChannelLink	{	color:#ffffff;	font-size: 20px;	padding: 0;	}
 .contactDetailsL	{	font-size: 16px;	padding-left: 5px;	padding-top: 5px;	letter-spacing: 0.05em;	}
@@ -46,26 +46,26 @@ h5 {    color: #5d0000;	letter-spacing: 0.1em;	padding: 0vw;	margin: 0vw;	}
 
 h6 {    color: #5d0000;	letter-spacing: 0.1em;	padding: 0vw;	margin: 0vw;	}
 
-p {    color: #161616;	letter-spacing: 0.05em;	font-size: 0.975vw;	padding: 0.5em 0em;	margin: 0vw;	line-height: 1.4em;	}
+p {    color: #161616;	letter-spacing: 0.05em;	font-size: 15px;	padding: 0.5em 0em;	margin: 0vw;	line-height: 1.4em;	}
 .link {	color:#ffffff;	cursor:pointer;	text-decoration: underline;	padding: 0em 1em;}
-.copyRight	{	font-size:inherit;	color:inherit;	opacity:0.75;	padding-top: 0em;	}
+.copyRight	{	font-size:inherit;	color:inherit;	opacity:0.75;	padding-top: 0.75em;	}
 .compPanelText	{	color: #ffffff;	padding-left: 10px;	padding-top: 0.25em;	font-size: 15px;	}
 .landingText	{	font-size: 14px;	padding: 0.5em 0em 1.5em;	text-decoration: none;	}
 .landingImageText	{	text-align: center;	padding: 0.1em;	}
-.projectPageText	{ 	color: #161616;	font-size: 1.3vw;	}
+.projectPageText	{ 	color: #161616;	font-size: 15px;	}
 .projectTileText	{	color: #ffffff;	font-size: 15px;	padding: 0.5em 0em 0.5em;	font-weight: 300;	}
 .musicDescription	{	color: #ffffff;	font-size: 15px;	}
 .musicIntroText	{	color: #ffffff;	font-size: 17px;	padding: 0;	}	
 .musicHeadingText	{	text-align: center;	padding: 0vw 1vw;	}
 .footerEmail	{	color: #ffffff;	font-size: 15px;	padding-bottom: 0em;	font-weight: 300;	}
-.siteMapInfo	{	padding: 0;	}
+.siteMapInfo	{	padding: 0;	font-size: 14px;	}
 
 span	{	font-weight: normal;	}
 
 em	{	color: #ffffff;	font-weight: 200;	padding-top: 0px;	}
 em.landingEM	{	color: #161616;	font-size: inherit;	}
 em.contactEM	{	color: #161616;	font-size: 15px;	display: block;	padding: 5px 25px;	}
-em.projectLink	{	font-size: 1.3vw;	}
+em.projectLink	{	font-size: 15px;	}
 em.musicLink	{	font-size: inherit;	color: inherit;	letter-spacing: inherit; font-weight: inherit;	}
 em.caption		{	font-weight: 400;	color: #161616;	}
 em.relevantProjects	{	font-size: 15px;	}
@@ -78,10 +78,13 @@ a:hover, a:active	{	text-decoration: underline;	}
 a.landingText	{	font-size: inherit;	}
 a.musicLink	{	font-size: inherit;	color: inherit;	letter-spacing: inherit; font-weight: inherit;	}
 .projectTileLink 	{	color: #ffffff;	cursor: pointer;	text-decoration: underline;	padding: 0em 1em; font-size: 15px;	}
-.siteMapLink	{	color: #ffffff;	font-size: 14px;	}
+.siteMapLink	{	color: #ffffff;	font-size: 14px;	line-height: 1.5em;	}
+.siteMapHeading	{	color: #ffffff;	font-size: 16px;	}
+.siteMapText	{	font-size: 14px;	line-height: 1.5em;	}
 
 label	{	letter-spacing: 0.1em;	padding: 0vw;	margin: 0vw;	font-size: 0.975vw;	font-weight: bold;	display: inline;	}
 
+ul {	padding-left: 10px;	}
 li {    color: #161616;	letter-spacing: 0.05em;	font-size: 0.975vw;	padding: 0vw;	margin: 0vw;	line-height: 1.6em;	}
 
 iframe	{
@@ -333,7 +336,6 @@ footer {
 /*---------------------------------------------------------------- project container ----------------------------------------------------------------*/
 .projectContainer {
 	width: 100%;
-	height: 25vw;
 	margin: 15px 0px 50px;
 	background: none;
 	display: flex;
@@ -341,18 +343,18 @@ footer {
 
 .projectContainer .left {
 	width: inherit;	height: inherit;
-	background: linear-gradient(to right, rgba(40,157,211,0), rgba(40,157,211,1) 60%);
+	background: linear-gradient(to right, rgba(40,157,211,0), rgba(40,157,211,1) 100%);
 	-webkit-animation: swipeLeft 0.75s ease-in-out;	animation: swipeLeft 0.75s ease-in-out;
 }
 .projectContainer .left .text {
-	text-align: left;	padding: 2% 5% 15%;
-	width: 60%;
+	text-align: left;	padding: 2% 5%;
+	width: 100%;
 	opacity: 0;
 	float: left;
 	-webkit-animation: textFadeIn 0.75s ease-in-out 0.75s forwards;	animation: textFadeIn 0.75s ease-in-out 0.75s forwards;
 }
 .projectContainer .left .image {
-	width: 40%;	height: inherit;
+	width: 100%;
 	overflow: hidden;
 	opacity: 0;
 	float: left;
@@ -361,18 +363,18 @@ footer {
 
 .projectContainer .right {
 	width: inherit;	height: inherit;
-	background: linear-gradient(to left, rgba(32,163,87,0), rgba(32,163,87,1) 70%);
+	background: linear-gradient(to left, rgba(32,163,87,0), rgba(32,163,87,1) 100%);
 	-webkit-animation: swipeRight 0.75s ease-in-out;	animation: swipeRight 0.75s ease-in-out;
 }
 .projectContainer .right .text {
-	text-align: right;	padding: 2% 5% 15%;
-	width: 60%;
+	text-align: right;	padding: 2% 5%;
+	width: 100%;
 	float: right;
 	opacity: 0;
 	-webkit-animation: textFadeIn 0.75s ease-in-out 0.75s forwards;	animation: textFadeIn 0.75s ease-in-out 0.75s forwards;
 }
 .projectContainer .right .image {
-	width: 40%;	height: inherit;
+	width: 100%;	height: inherit;
 	overflow: hidden;
 	opacity: 0;
 	float: right;
@@ -398,19 +400,22 @@ footer {
 }
 
 #animalBanner {
-	height: 150px;
+	height: 110px;
 	margin: 0;
 }
 
 #animalTiles{
 	display: block;
-	height: 550px;
 	text-align: center;
 	margin: 5px 0;
 }
 
+#animalBannerText {
+	width: 65%;
+}
+
 img.animalTile {
-	width: 19.5%;
+	width: 45%;
 	margin: 0 auto;
 	padding: 0;
 }
@@ -432,7 +437,7 @@ img.animalTile {
 
 
 
-/*---------------------------------------------------------------- competancy container ----------------------------------------------------------------*/
+/*---------------------------------------------------------------- software container ----------------------------------------------------------------*/
 .container .compImage {
 	background-color: #ffffff;
 	justify-content: space-around;
@@ -549,21 +554,26 @@ img.channelImage	{
 
 /*---------------------------------------------------------------- site map ----------------------------------------------------------------*/
 table {
-	width: 80%;
+	width: 100%;
 	margin: auto;
 	text-align: left;
-	padding: 0vw;
+	padding: 0;
+	border-collapse: collapse;
 }
 th	{
-	width: 16%;
-	padding: 0vw 0vw 0vw;
+	width: 15%;
+	padding: 5px 10px;
 }
+th.blue	{	background: #289dd3;	}
+th.green{	background: #20a357;	}
 td {
-	padding: 0vw 1vw 0vw 0.5vw;
-	vertical-align: 0vw;
+	padding: 10px;
+	padding-left: 20px;
 }
+td.blue	{	background: linear-gradient(to right, rgba(40, 157, 211, 1), rgba(40, 157, 211, 0) 5%);	}
+td.green{	background: linear-gradient(to right, rgba(32, 163, 87, 1), rgba(32, 163, 87, 0) 5%);	}
 tr	{
-	padding: 0vw;
+	padding: 0;
 }
 	
 }

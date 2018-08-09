@@ -25,11 +25,11 @@
 
 <!--________________________________________________________________________NAV-BAR________________________________________________________________________-->
 <nav class="sticky">
-	<a href="index.html">			<button class="nav0" style="left:0%"><h2>About</h2></button></a>
-	<a href="ProjectsHome.html">	<button class="nav0" style="left:20%"><h2>Projects</h2></button></a>
-	<a href="Software.html">		<button class="nav0" style="left:40%"><h2>Software</h2></button></a>
-	<a href="Music.html">			<button class="nav0" style="left:60%"><h2>Music</h2></button></a>
-	<a href="Contact.html">			<button class="nav0" style="left:80%"><h2>Contact</h2></button></a>
+	<a href="index.html">			<button class="nav0" id="NavBarAbout"><h2>About</h2></button></a>
+	<a href="ProjectsHome.html">	<button class="nav0" id="NavBarProjects"><h2>Projects</h2></button></a>
+	<a href="Software.html">		<button class="nav0" id="NavBarSoftware"><h2>Software</h2></button></a>
+	<a href="Music.html">			<button class="nav0" id="NavBarMusic"><h2>Music</h2></button></a>
+	<a href="Contact.html">			<button class="nav0" id="NavBarContact"><h2>Contact</h2></button></a>
 </nav>
 
 
@@ -42,37 +42,76 @@
 <!--________________________________________________________________________CONTENT________________________________________________________________________-->
 <table>
 	<tr>
-		<th><a href="index.html">Home Page</a></th>
-		<th><a href="ProjectsHome.html">My Projects</a></th>
-		<th><a href="Software.html">Software Skills</a></th>
-		<th><a href="Music.html">Music</a></th>
-		<th><a href="Contact.html">Contact Me</a></th>
+		<th class="blue"><a class="siteMapHeading" href="index.html">Home Page</a></th>
+		<td class="blue"><p class="siteMapInfo">A little bit about me and what I do</p></td>
 	</tr>
-	
 	<tr>
-		<td><p class="siteMapInfo">A little about me and what I do</p></td>
-		<td>
+		<th class="green"><a class="siteMapHeading" href="ProjectsHome.html">My Projects</a></th>
+		<td class="green">
 			<ul>
-				<li><a href="Project1.html">My Wesbite</a></li>
-				<li><a href="Project2.html">Educational Robot Scheme: Communication</a></li>
-				<li><a href="Project3.html">Educational Robot Scheme: Electronics Hardware</a></li>
-				<li><a href="Project4.html">Card Game Box</a></li>
-				<li><a href="Project5.html">UV CUring Chamber: Electronics & Software</a></li>
-				<li><a href="Project6.html">Heat Transfer Simulation</a></li>
-				<li><a href="Project7.html">Music Videos</a></li>
-				<li><a href="Project8.html">Educational Robot Scheme: UI</a></li>
-				<li><a href="Project9.html">Treasure Hunting Robot</a></li>
-				<li><a href="Project10.html">Arduino Controlled Drone</a></li>
-				<li><a href="Project11.html">UV Curing Chamber: CAD</a></li>
-				<li><a href="Project12.html">Tool Box</a></li>
-				<li><a href="Project13.html">4-Point Bending Jig</a></li>
+				<li><a class="siteMapText" href="Project1.html">My Wesbite</a></li>
+				<li><a class="siteMapText" href="Project2.html">Educational Robot Scheme: Communication</a></li>
+				<li><a class="siteMapText" href="Project3.html">Educational Robot Scheme: Electronics Hardware</a></li>
+				<li><a class="siteMapText" href="Project4.html">Card Game Box</a></li>
+				<li><a class="siteMapText" href="Project5.html">UV CUring Chamber: Electronics & Software</a></li>
+				<li><a class="siteMapText" href="Project6.html">Heat Transfer Simulation</a></li>
+				<li><a class="siteMapText" href="Project7.html">Music Videos</a></li>
+				<li><a class="siteMapText" href="Project8.html">Educational Robot Scheme: UI</a></li>
+				<li><a class="siteMapText" href="Project9.html">Treasure Hunting Robot</a></li>
+				<li><a class="siteMapText" href="Project10.html">Arduino Controlled Drone</a></li>
+				<li><a class="siteMapText" href="Project11.html">UV Curing Chamber: CAD</a></li>
+				<li><a class="siteMapText" href="Project12.html">Tool Box</a></li>
+				<li><a class="siteMapText" href="Project13.html">4-Point Bending Jig</a></li>
 			</ul>
 		</td>
-		<td><p class="siteMapInfo">Some of the software I'm good at</p></td>
-		<td><p class="siteMapInfo">A taste of what I like to do in my spare time</p></td>
-		<td><p class="siteMapInfo">Get in touch with me via email and LinkedIn</p></td>
+	</tr>
+	<tr>
+		<th class="blue"><a class="siteMapHeading" href="ProjectsHome.html">Software Skills</a></th>
+		<td class="blue"><p class="siteMapInfo">Some of the software I'm good at</p></td>
+	</tr>
+	<tr>
+		<th class="green"><a class="siteMapHeading" href="ProjectsHome.html">Music</a></th>
+		<td class="green"><p class="siteMapInfo">A taste of what I like to do in my spare time</p></td>
+	</tr>
+	<tr>
+		<th class="blue"><a class="siteMapHeading" href="ProjectsHome.html">Contact</a></th>
+		<td class="blue"><p class="siteMapInfo">Get in touch with me via email and LinkedIn</p></td>
 	</tr>
 </table>
+
+<!-- <table> -->
+	<!-- <tr> -->
+		<!-- <th><a class="siteMapHeading" href="index.html">Home Page</a></th> -->
+		<!-- <th><a class="siteMapHeading" href="ProjectsHome.html">My Projects</a></th> -->
+		<!-- <th><a class="siteMapHeading" href="Software.html">Software Skills</a></th> -->
+		<!-- <th><a class="siteMapHeading" href="Music.html">Music</a></th> -->
+		<!-- <th><a class="siteMapHeading" href="Contact.html">Contact Me</a></th> -->
+	<!-- </tr> -->
+	
+	<!-- <tr> -->
+		<!-- <td><p class="siteMapInfo">A little about me and what I do</p></td> -->
+		<!-- <td> -->
+			<!-- <ul> -->
+				<!-- <li><a class="siteMapText" href="Project1.html">My Wesbite</a></li> -->
+				<!-- <li><a class="siteMapText" href="Project2.html">Educational Robot Scheme: Communication</a></li> -->
+				<!-- <li><a class="siteMapText" href="Project3.html">Educational Robot Scheme: Electronics Hardware</a></li> -->
+				<!-- <li><a class="siteMapText" href="Project4.html">Card Game Box</a></li> -->
+				<!-- <li><a class="siteMapText" href="Project5.html">UV CUring Chamber: Electronics & Software</a></li> -->
+				<!-- <li><a class="siteMapText" href="Project6.html">Heat Transfer Simulation</a></li> -->
+				<!-- <li><a class="siteMapText" href="Project7.html">Music Videos</a></li> -->
+				<!-- <li><a class="siteMapText" href="Project8.html">Educational Robot Scheme: UI</a></li> -->
+				<!-- <li><a class="siteMapText" href="Project9.html">Treasure Hunting Robot</a></li> -->
+				<!-- <li><a class="siteMapText" href="Project10.html">Arduino Controlled Drone</a></li> -->
+				<!-- <li><a class="siteMapText" href="Project11.html">UV Curing Chamber: CAD</a></li> -->
+				<!-- <li><a class="siteMapText" href="Project12.html">Tool Box</a></li> -->
+				<!-- <li><a class="siteMapText" href="Project13.html">4-Point Bending Jig</a></li> -->
+			<!-- </ul> -->
+		<!-- </td> -->
+		<!-- <td><p class="siteMapInfo">Some of the software I'm good at</p></td> -->
+		<!-- <td><p class="siteMapInfo">A taste of what I like to do in my spare time</p></td> -->
+		<!-- <td><p class="siteMapInfo">Get in touch with me via email and LinkedIn</p></td> -->
+	<!-- </tr> -->
+<!-- </table> -->
 
 
 
