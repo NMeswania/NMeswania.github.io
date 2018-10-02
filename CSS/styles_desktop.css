@@ -63,6 +63,7 @@ p {    color: #161616;	letter-spacing: 0.05em;	font-size: 0.975vw;	padding: 0.5e
 span	{	font-weight: normal;	}
 
 em	{	color: #ffffff;	font-weight: 200;	padding-top: 0px;	}
+em.landingEM	{	color: #161616;	}
 em.contactEM	{	color: #161616;	}
 em.projectLink	{	font-size: 1.3vw;	}
 em.musicLink	{	font-size: inherit;	color: inherit;	letter-spacing: inherit; font-weight: inherit;	}
