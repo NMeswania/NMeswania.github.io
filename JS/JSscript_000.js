@@ -8,7 +8,7 @@ function myFunction(compInfoNum) {
 	var showing = false;
 	var heightData = [
 		{
-			_height: [19, 20, 18, 16, 15, 15, 13, 13],
+			_height: [21, 23, 20, 19, 18, 18, 16, 16],
 			_step: 1,
 			_unit: "vw"
 		},
