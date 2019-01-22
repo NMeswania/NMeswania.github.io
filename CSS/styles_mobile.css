@@ -143,6 +143,23 @@ nav {
 	transition:	0.5s;
 	z-index: 9999;
 }
+.stickyScroll {
+	background: linear-gradient(to left, rgba(32,163,87,1), rgba(40,157,211,1) 100%);
+}
+.progressContainer{
+	position: sticky;
+	top: 0;
+	width: 100%;
+	height: 9px;
+	background: linear-gradient(to left, rgba(32,163,87,1), rgba(40,157,211,1) 100%);
+	z-index: 9998;
+}
+.progressBarClass{
+	width: 100%;
+	height: 10px;
+	background: #161616;
+	float: right;
+}
 
 
 

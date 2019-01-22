@@ -138,10 +138,27 @@ nav {
 }
 .sticky {
 	position: sticky;
-	top: 0;
+	top: 9px;
 	width: 100%;
 	transition:	0.5s;
-	z-index: 9999;
+	z-index: 9997;
+}
+.stickyScroll {
+	background: linear-gradient(to left, rgba(32,163,87,1), rgba(40,157,211,1) 100%);
+}
+.progressContainer{
+	position: sticky;
+	top: 0;
+	width: 100%;
+	height: 9px;
+	background: linear-gradient(to left, rgba(32,163,87,1), rgba(40,157,211,1) 100%);
+	z-index: 9998;
+}
+.progressBarClass{
+	width: 100%;
+	height: 10px;
+	background: #161616;
+	float: right;
 }
 
 
@@ -159,11 +176,11 @@ button {
 	cursor:pointer;
 	outline: none;
 }
-button.nav0 	{	width: 20%;	position: absolute;	}
+button.nav0 	{	width: 20%;	position: absolute;	z-index: 9999;	}
 button.nav0:hover {	background: #aaaaaa;	-webkit-transform: translate(0px, 5px);	transform: translate(0px, 5px);	}
-button.navSel {	width: 20%;	position: absolute;	background-color: #5d0000;	}
+button.navSel {	width: 20%;	position: absolute;	background-color: #5d0000;	z-index: 9999;	}
 button.navSel:enabled:hover {	-webkit-transform: translate(0px, 5px);	transform: translate(0px, 5px);	}
-button.navSelP {	width: 20%;	position: absolute;	background-color: #5e3030;	}
+button.navSelP {	width: 20%;	position: absolute;	background-color: #5e3030;	z-index: 9999;	}
 button.navSelP:hover {	background: #5d0000;	-webkit-transform: translate(0px, 5px);	transform: translate(0px, 5px);	}
 button.compImageButton {	background-color: #ffffff;	text-align: left;	height: inherit;	}
 button.compImageButton:hover	{	-webkit-filter: grayscale(0%);    filter: grayscale(0%);	}
