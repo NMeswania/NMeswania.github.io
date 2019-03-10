@@ -7,13 +7,13 @@ function myFunction(compInfoNum) {
 	var x = document.getElementById("compInfo" + compInfoNum);		// desired div to toggle
 	var showing = false;
 	var heightData = [
-		{
-			_height: [21, 23, 20, 19, 18, 18, 16, 16],
+		{ // desktop
+			_height: [21, 26, 20, 19, 18, 18, 16, 16],
 			_step: 1,
 			_unit: "vw"
 		},
-		{
-			_height: [550, 450, 450, 350, 350, 325, 275, 300],
+		{ // mobile
+			_height: [550, 550, 450, 350, 350, 325, 275, 300],
 			_step: 25,
 			_unit: "px"
 		}
