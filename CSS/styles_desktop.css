@@ -138,13 +138,14 @@ nav {
 }
 .sticky {
 	position: sticky;
-	top: 9px;
+	top: 0px;
 	width: 100%;
 	transition:	0.5s;
 	z-index: 9997;
 }
 .stickyScroll {
 	background: linear-gradient(to left, rgba(32,163,87,1), rgba(40,157,211,1) 100%);
+	top: 9px;
 }
 .progressContainer{
 	position: sticky;
