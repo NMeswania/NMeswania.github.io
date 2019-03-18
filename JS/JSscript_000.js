@@ -8,12 +8,12 @@ function myFunction(compInfoNum) {
 	var showing = false;
 	var heightData = [
 		{ // desktop
-			_height: [21, 26, 20, 19, 18, 18, 21, 16, 16],
+			_height: [21, 26, 20, 19, 17, 17, 22, 17, 15, 15],
 			_step: 1,
 			_unit: "vw"
 		},
 		{ // mobile
-			_height: [550, 550, 450, 350, 350, 325, 400, 275, 300],
+			_height: [550, 550, 450, 350, 350, 325, 500, 350, 275, 300],
 			_step: 25,
 			_unit: "px"
 		}
@@ -21,7 +21,7 @@ function myFunction(compInfoNum) {
 	
 	// reduce all panel heights, check if the selected panel is already showing
 	var i;
-	for (i = 0; i < 9; i++) {
+	for (i = 0; i < 10; i++) {
 		if (tabs[i].style.display == "block" && i == compInfoNum) {
 			showing = true;
 		}

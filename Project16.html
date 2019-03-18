@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Project 16 | Neal Meswania</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="CSS\styles_desktop.css">
+	<link rel="stylesheet" href="CSS\styles_mobile.css">
+	<script type="text/javascript" src="JS\JSscript_003.js"></script>
+</head>
+
+<body>
+
+<!--________________________________________________________________________HEADER________________________________________________________________________-->
+<a href="index.html">
+	<header>
+		<div class="headerTitle" id="neal">
+			<h1>Neal</h1>
+		</div>
+		<img src="Media\Logo.png" class="headerImage">
+		<div class="headerTitle" id="meswania">
+			<h1>Meswania</h1>
+		</div>
+	</header>
+</a>
+
+
+<!--________________________________________________________________________NAV-BAR________________________________________________________________________-->
+<div class="progressContainer">
+	<div class="progressBarClass" id="progressBar"></div>
+</div>
+
+<nav class="sticky stickyScroll">
+	<a href="index.html">			<button class="nav0" id="NavBarAbout"><h2>About</h2></button></a>
+	<a href="ProjectsHome.html">	<button class="navSelP" id="NavBarProjects"><h2>Projects</h2></button></a>
+	<a href="Software.html">		<button class="nav0" id="NavBarSoftware"><h2>Software</h2></button></a>
+	<a href="Music.html">			<button class="nav0" id="NavBarMusic"><h2>Music</h2></button></a>
+	<a href="Contact.html">			<button class="nav0" id="NavBarContact"><h2>Contact</h2></button></a>
+</nav>
+
+
+<!--________________________________________________________________________CONTENT________________________________________________________________________-->
+<h2 class="projectPadeHeading">Machine Vision Robot</h2>
+
+
+<section>
+	<div class="projectContainer">
+		<div class="left">
+			<div class="text">
+				<h3 class="projectPageTitle">Brief</h3>
+				<p class="projectPageText">As part of a group of 4 working on a rolling robot, my task was to design the robots’ triangulation 
+				algorithm in Python, using OpenCV with ArUco codes.</p>
+			</div>
+			<div class="image">
+				<img src="Media\Projects\Project16\Project16_tile1.png"
+					class="projectContainerImage" alt="Rolling robot photo">
+			</div>
+		</div>
+	</div>
+
+	<div class="projectContainer">
+		<div class="right">
+			<div class="text">
+				<h3 class="projectPageTitle">ArUco Codes</h3>
+				<p class="projectPageText">ArUco codes are markers, similar looking to QR codes, but for different applications. They are 
+				used to calculate the position of a camera relative to the code, often for projecting 3D images in Augmented Reality (that’s 
+				where the “Ar” in “ArUco” comes from). There’s a set of handy OpenCV library functions that deals with ArUco codes, making 
+				my job a little easier.</p>
+			</div>
+			<div class="image">
+				<img src="Media\Projects\Project16\Project16_tile2.png"
+					class="projectContainerImage" alt="ArUco codes">
+			</div>
+		</div>
+	</div>
+	
+	<div class="projectContainer">
+		<div class="left">
+			<div class="text">
+				<h3 class="projectPageTitle">Triangulation</h3>
+				<p class="projectPageText">The real challenge here was to determine the robots’ position in a roughly 2m-square area with 
+				ArUco codes all around the grid, where the robot could calculate its position regardless of which code it was looking at. 
+				For this, I used the same principle used in robotics kinematics - Homogenous Transforms. It allowed me to calculate the robots’ 
+				position relative to the code, with the position of the code relative to the global coordinate frame, it was easy to then apply 
+				a Homogenous Transform to the first calculation to calculate the robot’s position in the global coordinate frame.</p>
+			</div>
+			<div class="image">
+				<img src="Media\Projects\Project16\Project16_tile3.png"
+					class="projectContainerImage" alt="Algorithm diagram">
+			</div>
+		</div>
+	</div>
+
+	<div class="projectContainer">
+		<div class="right">
+			<div class="text">
+				<h3 class="projectPageTitle">Communication and Signal Tidy-Up</h3>
+				<p class="projectPageText">Firstly, the algorithm was written in Python on the JeVois camera GPU, with the motor controllers 
+				written in Simulink on an Arduino MKR1000. So, I needed to write a Serial communication protocol between these two devices and 
+				decode the information (diagram here). Luckily the grid was sized where 1 bit corresponded to 1 cm and the whole X-Y coordinate 
+				system could be sent in 2 bytes - allows for faster communication. Finally, in Simulink, I removed some of the noise and used a 
+				Zero-Order hold before sending the data on to the motor controllers.</p>
+			</div>
+			<div class="image">
+				<img src="Media\Projects\Project16\Project16_tile4.png"
+					class="projectContainerImage" alt="Simulink code">
+			</div>
+		</div>
+	</div>
+	
+	<div class="projectContainer">
+		<div class="left">
+			<div class="text">
+				<h3 class="projectPageTitle">Further Work</h3>
+				<p class="projectPageText">Apart from increasing the positional resolution (by increasing the volume of information being sent), 
+				the only other improvement is the placement of the ArUco codes around the grid to maximise the coverage of the active area.</p>
+			</div>
+			<div class="image">
+				<img src="Media\Projects\Project16\Project16_tile5.png"
+					class="projectContainerImage" alt="ArUco code placement options">
+			</div>
+		</div>
+	</div>
+
+	<div class="projectContainer">
+		<div class="right">
+			<div class="text">
+				<h3 class="projectPageTitle">Skills</h3>
+				<p class="projectPageText">I really enjoyed working with the camera and being able to physically interact with the robot 
+				through the codes. The project lasted just 3 weeks, pretty intense considering we had other projects going on simultaneously. 
+				I want to improve my Python skills, seems like a really useful language to have in my toolbox. </p>
+			</div>
+			<div class="image">
+				<img src="Media\Projects\Project16\Project16_tile6.png"
+					class="projectContainerImage" alt="Python logo">
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<!--________________________________________________________________________FOOTER________________________________________________________________________-->
+<footer>
+	<img src="Media\Logo.png" class="footerImage">
+	
+	<div class="footerLine"></div>
+	
+	<div class="footerText">
+		<p class="footerEmail">Email: <em>n.meswania@gmail.com</em></p>
+		<a href="SiteMap.html" class="siteMapLink">Site map</a>
+		<p class="copyRight">&copy; 2018 Neal Meswania</p>
+	</div>
+</footer>
+
+</body>
+</html>
